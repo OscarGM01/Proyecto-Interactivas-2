@@ -1,0 +1,11 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+.nav-txt-pstn{
+    @include mixins.set-text-position(variables.$clr-white);
+}
+
+.nav-clr-bg{
+    @include mixins.set-background(variables.$clr-green);
+}
+

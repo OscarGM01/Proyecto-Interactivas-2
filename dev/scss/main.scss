@@ -1,0 +1,15 @@
+// abstract
+@use './abstract/variables';
+@use './abstract/mixins';
+
+// base
+@use './base/resets';
+
+// components   
+@use './components/carousel';
+
+// layout
+@use './layout/navbar';
+
+// ventors
+@use './vendor/bootstrap/bootstrap.scss';
