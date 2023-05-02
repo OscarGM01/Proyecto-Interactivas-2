@@ -9,3 +9,12 @@
     @include mixins.set-background(variables.$clr-green);
 }
 
+.set-ff{
+    @include mixins.set-font-family(variables.$ff);
+}
+
+.index-pstn{
+    @include mixins.set-index-position();
+}
+
+

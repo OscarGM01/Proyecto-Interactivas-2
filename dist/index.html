@@ -16,22 +16,34 @@
 
 <body>
     <section id="app" class="container">
+        <!--Header/Nav Bar-->
         <header class="position-relative">
             <div class="nav-clr-bg">
                 <img v-bind:src="imageLogo" alt="logo">
-                <h1 class="nav-txt-pstn">{{name}}</h1>
+                <h1 class="nav-txt-pstn set-ff">{{name}}</h1>
                 <p>{{img}}</p>
+        
+                <div>
+                    <ul>
+                        <a href="" class="nav-links">Categorias </a> 
+                        <a href="" class="nav-links">Para Cada Ocación </a> 
+                        <a href="" class="nav-links">Más votadas </a> 
+                        
+                    </ul>
+                    
+                </div>
 
-                <div    style="align-items:center; display: flex; 
-                padding: 5px 5%; padding-top: 1.5%; margin-left: 5%;">
-                    <button style="padding: 20%; color: white;">button11</button>
-                    <button style="padding: 20%; color: white;">button12</button>
-                    <button style="padding: 20%; color: white;">button13</button>
+                <div>
+                    <input type="text" placeholder="Buscar" class="index-pstn">
+                    <div class="btn">
+                        <img src="./imgs/iconos/buscar.png" style="background-color: aqua; height: 30px; 
+                        width: auto;" alt="">
+                    </div>
                 </div>
 
             </div>
         </header>
-
+        <!--Header/Nav Bar-->
         <!--Carrusel-->
         <div class="carousel-recipes">
             <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">

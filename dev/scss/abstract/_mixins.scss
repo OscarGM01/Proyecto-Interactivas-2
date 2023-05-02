@@ -1,6 +1,6 @@
 
 @mixin set-text-position($color){
-    margin-top: 10px;
+    margin-top: 15px;
     color: $color;
     //background-color: aqua;
 }
@@ -21,7 +21,34 @@
     height: 300px;
     border-radius: 25px;
 }
-//@mixin set-background-form-size(){
+@mixin set-font-family($ff){
+    font-family: $ff;
     
-    
-//}
+}
+
+@mixin button-style($ff, $color){
+    font-family: $ff;
+    color: $color;
+    list-style: none;
+    margin: 25px;
+    display: inline-block;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+@mixin button-animation(){
+    transform: scale(1.2);
+}
+
+@mixin set-index-position(){
+    background-color: beige;
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0;
+    margin-top: 15px;
+    padding: 0 10px;
+    color: black;
+    border-radius: 50px;
+    transition: all .7s ease;
+}
