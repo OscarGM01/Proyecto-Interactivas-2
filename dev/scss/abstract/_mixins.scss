@@ -8,6 +8,7 @@
 @mixin set-background($color){
     background-color: $color;
     height:75px;
+    width: 100%;
     display: flex;
 }
 
@@ -26,6 +27,7 @@
     
 }
 
+<<<<<<< HEAD
 @mixin button-style($ff, $color){
     font-family: $ff;
     color: $color;
@@ -51,4 +53,72 @@
     color: black;
     border-radius: 50px;
     transition: all .7s ease;
+=======
+//Botones links
+@mixin button-style($ff, $color, $fs){
+    font-family: $ff;
+    color: $color;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: 170px;
+    text-decoration: none;
+    font-size: $fs;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+//animation buttons bar
+@mixin input-anmtn-btm($color){
+    color: $color;
+}
+
+//animation search bar
+@mixin set-index-position(){
+    background-color: beige;
+    height: 40px;
+    width: 0;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 0 10px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: all .7s ease;
+}
+
+@mixin set-search-img-stl(){
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    height: 30px;
+    width: auto;
+}
+
+@mixin btn-stl(){
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+@mixin cntr-anmtn(){
+    margin: 15px;
+    margin-left: 100px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+@mixin input-anmtn(){
+    width: 200px;
+    height: 40px;
+>>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 }

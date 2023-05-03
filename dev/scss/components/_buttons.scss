@@ -2,9 +2,29 @@
 @use '../abstract/mixins';
 
 .nav-links{
+<<<<<<< HEAD
     @include mixins.button-style(variables.$ff, variables.$clr-white);
 }
 
 .header .nav-links ul:hover{
     @include mixins.button-animation();
+=======
+    @include mixins.button-style(variables.$ff, variables.$clr-white, variables.$fs-s);
+}
+
+.button-search{
+    @include mixins.btn-stl();
+}
+
+.buttons-animation:hover {
+    @include mixins.input-anmtn-btm(variables.$clr-grey);
+}
+
+.index-animation:hover input{
+    @include mixins.input-anmtn();
+}
+
+.search-image{
+    @include mixins.set-search-img-stl();
+>>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 }

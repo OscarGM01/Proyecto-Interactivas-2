@@ -45,6 +45,7 @@ body {
 .nav-clr-bg {
   background-color: hsl(150deg, 16%, 41%);
   height: 75px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,6 +57,7 @@ body {
 
 .index-pstn {
   background-color: beige;
+<<<<<<< HEAD
   outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -65,10 +67,31 @@ body {
   padding: 0 10px;
   color: black;
   border-radius: 50px;
+=======
+  height: 40px;
+  width: 0;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 0 10px;
+  color: black;
+  border-radius: 50px;
+  font-size: 20px;
+>>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 
+<<<<<<< HEAD
+=======
+.container-animation {
+  margin: 15px;
+  margin-left: 100px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+>>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -13460,6 +13483,7 @@ textarea.form-control-lg {
   font-family: "DM Sans", "inter";
   color: hsl(300deg, 3%, 93%);
   list-style: none;
+<<<<<<< HEAD
   margin: 25px;
   display: inline-block;
   padding: 0 15px;
@@ -13469,4 +13493,52 @@ textarea.form-control-lg {
 .header .nav-links ul:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+  width: 170px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.button-search {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttons-animation:hover {
+  color: hsl(0deg, 3%, 34%);
+}
+
+.index-animation:hover input {
+  width: 200px;
+  height: 40px;
+}
+
+.search-image {
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  height: 30px;
+  width: auto;
+>>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 }
