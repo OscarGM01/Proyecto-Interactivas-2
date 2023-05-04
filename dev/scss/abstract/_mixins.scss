@@ -28,6 +28,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin button-style($ff, $color){
     font-family: $ff;
     color: $color;
@@ -54,6 +55,8 @@
     border-radius: 50px;
     transition: all .7s ease;
 =======
+=======
+>>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -70,6 +73,24 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+@mixin button-b-r($ff, $color, $fs){
+    font-family: $ff;
+    background-color: $color;
+    font-size: $fs;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+    height: 40px; 
+    width: 120px;
+}
+
+@mixin button-b-r-clr($color){
+    color: $color;
+}
+
+>>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -97,13 +118,21 @@
     width: auto;
 }
 
+<<<<<<< HEAD
 @mixin btn-stl(){
+=======
+@mixin btn-stl($color){
+>>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
     background-color: aqua;
+=======
+    background-color: $color;
+>>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -120,5 +149,8 @@
 @mixin input-anmtn(){
     width: 200px;
     height: 40px;
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
+=======
+>>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 }

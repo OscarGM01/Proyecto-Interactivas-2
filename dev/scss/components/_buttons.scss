@@ -3,21 +3,32 @@
 
 .nav-links{
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include mixins.button-style(variables.$ff, variables.$clr-white);
 }
 
 .header .nav-links ul:hover{
     @include mixins.button-animation();
 =======
+=======
+>>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
     @include mixins.button-style(variables.$ff, variables.$clr-white, variables.$fs-s);
 }
 
 .button-search{
+<<<<<<< HEAD
     @include mixins.btn-stl();
 }
 
 .buttons-animation:hover {
     @include mixins.input-anmtn-btm(variables.$clr-grey);
+=======
+    @include mixins.btn-stl(variables.$clr-Liht-green);
+}
+
+.buttons-animation:hover {
+    @include mixins.input-anmtn-btm(variables.$clr-orange-100);
+>>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 }
 
 .index-animation:hover input{
@@ -26,5 +37,16 @@
 
 .search-image{
     @include mixins.set-search-img-stl();
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
+=======
+}
+
+.btn-best-recipes{
+    @include mixins.button-b-r(variables.$ff, variables.$clr-green, variables.$fs-s);
+}
+
+.btn-best-recipes-clr{
+    @include mixins.button-b-r-clr(variables.$clr-white); 
+>>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 }
