@@ -28,6 +28,7 @@
             <div class="nav-clr-bg">
                 <img v-bind:src="imageLogo" alt="logo">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <h1 class="nav-txt-pstn set-ff">{{name}}</h1>
                 <p>{{img}}</p>
         
@@ -38,6 +39,8 @@
                         <a href="" class="nav-links">Para Cada Ocación </a> 
                         <a href="" class="nav-links">Más votadas </a> 
 =======
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
                 <h1 class="nav-txt-pstn set-ff">{{namePage}}</h1>
         
                 <div>
@@ -45,12 +48,16 @@
                         <a href="" class="nav-links buttons-animation">Categorias </a> 
                         <a href="" class="nav-links buttons-animation">Para Cada Ocación </a> 
                         <a href="" class="nav-links buttons-animation">Más votadas </a> 
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
                         
                     </ul>
                     
                 </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <div>
                     <input type="text" placeholder="Buscar" class="index-pstn">
@@ -71,6 +78,8 @@
 
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
                 <div class="container-animation">
                     <div class="index-animation" >
                     <input type="text" placeholder="Buscar" class="index-pstn">
@@ -112,6 +121,7 @@
 
         <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <button style="height: 40px; width: 120px; border-radius: 10px; 
             background-color: green; margin-top: 2%;">Más Votadas</button>
         </div>
@@ -146,6 +156,83 @@
             preptime="10 min" cooktime="20 min"
             level="Easy"></recipe-card>
         </section>
+=======
+            <button class="btn-best-recipes btn-best-recipes-clr">Más Votadas</button>
+        </div>
+
+        <!--Best Recipes-->
+        
+        <section id="app" class="container">
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{ recipes[selectedIndex].name }}</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-fluid" v-bind:src="recipes[selectedIndex].image" alt="{{ recipes[selectedIndex].name }}" >
+                            <p class="text-center fs-6">{{ recipes[selectedIndex].ingredients }}</p>
+                            <p class="fst-italic fw-light fs-5">{{ recipes[selectedIndex].instructions }}</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div v-if="recipes.length>1" style="display: flex; justify-content: center; align-items: center;"> 
+                                <button type="button" class="btn-best-recipes btn-best-recipes-clr" v-on:click="onClickPrev()">Prev</button>
+                                <button  type="button" class="btn-best-recipes btn-best-recipes-clr" v-on:click="onClickNext()">Next</button>
+                                <button type="button" class="btn-best-recipes btn-best-recipes-clr" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <!-- filters -->
+            <section class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
+                                <li v-for="(category, index) in categories" class="nav-item">
+                                    <button class="btn-best-recipes-internos btn-best-recipes-clr" v-on:click="onClickCategory(category.name)"
+                                        aria-current="page">
+                                        {{category.name}} </button>
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <!-- filters -->
+            <!--feature recipes-->
+            <section class="row">
+    
+                <div v-if="hasRecipes" v-for="(recipe, index) in recipes" class="col-md-3">
+                    <div class="card">
+                        <img v-bind:src="recipe.image" class="card-img-top" alt="featured recipe">
+                        <div class="card-body">
+                            <p>{{ recipe.category }}</p>
+                            <h5 class="card-title">{{ recipe.name }}</h5>
+                            <p class="card-text">{{ recipe.time }}</p>
+                            <p class="card-text">{{ recipe.level }}</p>
+                            <p class="card-text">{{ recipe.likes }}</p>
+                            <button class="btn-best-recipes-internos btn-best-recipes-clr" v-on:click="onClickLike(index)">like</button>
+                            <button class="btn-best-recipes-internos btn-best-recipes-clr" v-on:click="onClickUnlike(index)">Unlike</button>
+                            <button class="btn-best-recipes-internos btn-best-recipes-clr" data-bs-toggle="modal" data-bs-target="#staticBackdrop" 
+                            v-on:click="onClickViewRecipe(index)">  View Recipe</button>
+                        </div>
+                    </div>
+                </div>
+                <p v-else class="fw-bold">No recipes for this category!</p>
+            </section>
+            <!--feature recipes-->
+    
+        </section>
+
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
         <!--Best Recipes-->
 
         <!--Footer-->

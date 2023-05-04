@@ -59,6 +59,7 @@ body {
   background-color: beige;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -71,6 +72,8 @@ body {
 =======
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
   height: 40px;
   width: 0;
   margin-top: 20px;
@@ -80,18 +83,24 @@ body {
   border-radius: 50px;
   font-size: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 .container-animation {
   margin: 15px;
   margin-left: 100px;
@@ -101,9 +110,12 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -13497,6 +13509,7 @@ textarea.form-control-lg {
   list-style: none;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 25px;
   display: inline-block;
   padding: 0 15px;
@@ -13509,6 +13522,8 @@ textarea.form-control-lg {
 =======
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13534,10 +13549,14 @@ textarea.form-control-lg {
   height: 50px;
   width: 50px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: aqua;
 =======
   background-color: hsl(76deg, 51%, 68%);
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+  background-color: hsl(76deg, 51%, 68%);
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
   line-height: 80px;
   border-radius: 50%;
   text-align: center;
@@ -13546,10 +13565,14 @@ textarea.form-control-lg {
 
 .buttons-animation:hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: hsl(0deg, 3%, 34%);
 =======
   color: hsl(40deg, 96%, 55%);
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+  color: hsl(40deg, 96%, 55%);
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 }
 
 .index-animation:hover input {
@@ -13564,8 +13587,11 @@ textarea.form-control-lg {
   height: 30px;
   width: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 }
 
 .btn-best-recipes {
@@ -13575,11 +13601,30 @@ textarea.form-control-lg {
   border-radius: 10px;
   border: none;
   margin-top: 2%;
+<<<<<<< HEAD
+=======
+  margin-left: 1%;
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
   height: 40px;
   width: 120px;
 }
 
 .btn-best-recipes-clr {
   color: hsl(300deg, 3%, 93%);
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+}
+
+.btn-best-recipes-internos {
+  font-family: "DM Sans", "inter";
+  background-color: hsl(150deg, 16%, 41%);
+  font-size: 1.25rem;
+  border-radius: 10px;
+  border: none;
+  margin-top: 2%;
+  margin-left: 1%;
+  height: 40px;
+  width: auto;
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 }

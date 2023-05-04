@@ -29,6 +29,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin button-style($ff, $color){
     font-family: $ff;
     color: $color;
@@ -57,6 +58,8 @@
 =======
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -74,7 +77,10 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -82,6 +88,10 @@
     border-radius: 10px;
     border: none;
     margin-top: 2%;
+<<<<<<< HEAD
+=======
+    margin-left: 1%;
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
     height: 40px; 
     width: 120px;
 }
@@ -90,7 +100,23 @@
     color: $color;
 }
 
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+@mixin button-b-r-inter($ff, $color, $fs){
+    font-family: $ff;
+    background-color: $color;
+    font-size: $fs;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+    margin-left: 1%;
+    height: 40px; 
+    width: auto;
+}
+
+
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -119,20 +145,28 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin btn-stl(){
 =======
 @mixin btn-stl($color){
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+@mixin btn-stl($color){
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: aqua;
 =======
     background-color: $color;
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+    background-color: $color;
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -150,7 +184,10 @@
     width: 200px;
     height: 40px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
+=======
+>>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 }
