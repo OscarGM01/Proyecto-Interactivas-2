@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https:use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body class="body-img" style="background-image: url(./imgs/Fondo.png);">
+    <section id="app" class="container">
+
+        <div class="set-div-regist">
+
+            <div class="style-start">
+                <img v-bind:src="imageLock" alt="Lock" class="img-lock" >
+                <h4 class="set-ff nav-txt-pstn">Recuperar Contraseña</h4>
+                <div class="div-index-ssn">
+                    <p class="set-ff nav-txt-pstn" style="margin-left: 20%;">Por favor introduzca su correo</p>
+                    <input type="text" placeholder="Correo" class="register-index" style="margin-top: 0;">
+                    <button class="btn-adapt btn-best-recipes-clr">enviar clave temporal</button>
+                    <p class="set-ff nav-txt-pstn" style="margin-left: 20%; padding-right: 15%; text-align: right;">Por favor introduzca la clave temporal enviada a su correp y su nueva contraseña</p>
+                    <input type="text" placeholder="Clave Temporal" class="register-index" style="margin-top: 0;">
+                    <input type="text" placeholder="Nueva Contraseña" class="register-index" style="margin-top: 5%;">
+                    <button class="btn-adapt btn-best-recipes-clr">Cambiar Contraseña</button>
+                </div>  
+
+            </div>
+        </div>
+
+
+
+        </div>
+        <!--Footer-->
+        <footer style="display: flex; flex-direction: column; margin-top: 10%;
+         align-items: center;">
+
+            <img v-bind:src="imageLogo" alt="logo" style="height: 80px; opacity: 90%; padding-top: 10px;">
+            <div style="display: flex; justify-content: center; align-items: center; padding-top: 10px;">
+                <img v-bind:src="imageInsta" alt="logo" style="height: 25px; opacity: 90%; margin: 5%;">
+                <img v-bind:src="imageFace" alt="logo" style="height: 25px; opacity: 90%; margin: 5%;">
+                <img v-bind:src="imageTT" alt="logo" style="height: 25px; opacity: 90%; margin: 5%;">
+            </div>
+            <p style="font-size: 0.75rem; padding-top: 10px;">2022, GastroLife. Marca Registrada por O&P, S.A. Esparza
+                (Costa Rica)</p>
+        </footer>
+        <!--Footer-->
+
+    </section>
+
+    <!--VueJS-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!--vue-->
+    <script src="./js/main.js"></script>
+
+    <!-- <script src="./js/components/ClickCounter.js"></script>-->
+    <script src="./js/components/RecipeCards.js"></script>
+
+
+    <script>
+        const mountedApp = app.mount("#app");
+    </script>
+
+</body>
+
+</html>

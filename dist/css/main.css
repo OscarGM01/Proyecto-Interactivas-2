@@ -63,6 +63,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -83,6 +84,8 @@ body {
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
   height: 40px;
   width: 0;
   margin-top: 20px;
@@ -96,6 +99,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -107,10 +111,13 @@ body {
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +135,8 @@ body {
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 .container-animation {
   margin: 15px;
   margin-left: 100px;
@@ -141,6 +150,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -151,6 +161,8 @@ body {
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 .set-div-regist {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,7 +233,16 @@ body {
   margin-top: 15%;
 }
 
+<<<<<<< HEAD
 >>>>>>> 5d15aff (blablaa)
+=======
+.img-lock {
+  height: 80px;
+  opacity: 90%;
+  margin-top: 5%;
+}
+
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -13619,6 +13640,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 25px;
   display: inline-block;
   padding: 0 15px;
@@ -13639,6 +13661,8 @@ textarea.form-control-lg {
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13668,6 +13692,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: aqua;
 =======
   background-color: hsl(76deg, 51%, 68%);
@@ -13684,6 +13709,9 @@ textarea.form-control-lg {
 =======
   background-color: hsl(76deg, 51%, 68%);
 >>>>>>> 5d15aff (blablaa)
+=======
+  background-color: hsl(76deg, 51%, 68%);
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
   line-height: 80px;
   border-radius: 50%;
   text-align: center;
@@ -13691,6 +13719,7 @@ textarea.form-control-lg {
 }
 
 .buttons-animation:hover {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13712,6 +13741,9 @@ textarea.form-control-lg {
 =======
   color: hsl(40deg, 96%, 55%);
 >>>>>>> 5d15aff (blablaa)
+=======
+  color: hsl(40deg, 96%, 55%);
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .index-animation:hover input {
@@ -13730,6 +13762,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 =======
@@ -13740,6 +13773,8 @@ textarea.form-control-lg {
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .btn-best-recipes {
@@ -13753,6 +13788,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -13765,12 +13801,16 @@ textarea.form-control-lg {
 =======
   margin-left: 1%;
 >>>>>>> 5d15aff (blablaa)
+=======
+  margin-left: 1%;
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
   height: 40px;
   width: 120px;
 }
 
 .btn-best-recipes-clr {
   color: hsl(300deg, 3%, 93%);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13783,6 +13823,8 @@ textarea.form-control-lg {
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .btn-best-recipes-internos {
@@ -13798,12 +13840,15 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .btn-b-r-inter {
@@ -13818,6 +13863,7 @@ textarea.form-control-lg {
   width: auto;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 }
@@ -13828,6 +13874,8 @@ textarea.form-control-lg {
   background-position: center;
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .register-index {
@@ -13841,8 +13889,26 @@ textarea.form-control-lg {
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 .body-img {
   background-size: cover;
   background-position: center;
 >>>>>>> 5d15aff (blablaa)
+=======
+.btn-adapt {
+  font-family: "DM Sans", "inter";
+  background-color: hsl(150deg, 16%, 41%);
+  font-size: 1.25rem;
+  border-radius: 10px;
+  border: none;
+  margin-top: 2%;
+  margin-left: 1%;
+  height: auto;
+  width: auto;
+}
+
+.body-img {
+  background-size: cover;
+  background-position: center;
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }

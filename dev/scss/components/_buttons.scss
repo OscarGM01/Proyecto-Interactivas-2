@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include mixins.button-style(variables.$ff, variables.$clr-white);
 }
 
@@ -24,10 +25,13 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
     @include mixins.button-style(variables.$ff, variables.$clr-white, variables.$fs-s);
 }
 
 .button-search{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,11 +51,14 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
     @include mixins.btn-stl(variables.$clr-Liht-green);
 }
 
 .buttons-animation:hover {
     @include mixins.input-anmtn-btm(variables.$clr-orange-100);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,6 +72,8 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .index-animation:hover input{
@@ -73,6 +82,7 @@
 
 .search-image{
     @include mixins.set-search-img-stl();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +98,8 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .btn-best-recipes{
@@ -100,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
 =======
@@ -108,10 +121,13 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .btn-best-recipes-internos{
     @include mixins.button-b-r-inter(variables.$ff, variables.$clr-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,10 +137,13 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .btn-b-r-inter{
     @include mixins.button-b-r-orange(variables.$ff, variables.$clr-Liht-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
@@ -132,10 +151,18 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 }
 =======
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 .register-index{
     @include mixins.set-index-register();
 }
 
+<<<<<<< HEAD
 >>>>>>> 5d15aff (blablaa)
+=======
+.btn-adapt{
+    @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
+}
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)

@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin button-style($ff, $color){
     font-family: $ff;
     color: $color;
@@ -69,6 +70,8 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -90,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -99,6 +103,8 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -110,6 +116,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -122,6 +129,9 @@
 =======
     margin-left: 1%;
 >>>>>>> 5d15aff (blablaa)
+=======
+    margin-left: 1%;
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
     height: 40px; 
     width: 120px;
 }
@@ -134,6 +144,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
 =======
@@ -142,6 +153,8 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 @mixin button-b-r-inter($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -157,6 +170,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
@@ -164,6 +178,8 @@
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 @mixin button-b-r-orange($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -178,11 +194,14 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -215,6 +234,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin btn-stl(){
 =======
 @mixin btn-stl($color){
@@ -231,11 +251,15 @@
 =======
 @mixin btn-stl($color){
 >>>>>>> 5d15aff (blablaa)
+=======
+@mixin btn-stl($color){
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +281,9 @@
 =======
     background-color: $color;
 >>>>>>> 5d15aff (blablaa)
+=======
+    background-color: $color;
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -278,6 +305,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -288,6 +316,8 @@
 =======
 =======
 >>>>>>> 5d15aff (blablaa)
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 @mixin imagen-body(){
@@ -295,8 +325,11 @@
     background-position: center;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
 =======
+=======
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
 @mixin set-index-register(){
@@ -339,6 +372,15 @@
     border-radius: 50%;
 }
 
+<<<<<<< HEAD
+=======
+@mixin images-lock-style(){
+    height: 80px; 
+    opacity: 90%; 
+    margin-top: 5%;
+}
+
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 @mixin index-position-ssn(){
     display: flex; 
     align-items: center; 
@@ -351,5 +393,21 @@
     align-items: center; 
     flex-direction: column; 
     margin-top: 15%;
+<<<<<<< HEAD
 >>>>>>> 5d15aff (blablaa)
 }
+=======
+}
+
+@mixin button-adaptative($ff, $color, $fs){
+    font-family: $ff;
+    background-color: $color;
+    font-size: $fs;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+    margin-left: 1%;
+    height: auto; 
+    width: auto;
+}
+>>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
