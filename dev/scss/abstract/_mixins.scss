@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin button-style($ff, $color){
     font-family: $ff;
     color: $color;
@@ -60,6 +61,8 @@
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
+=======
+>>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -78,9 +81,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
+=======
+>>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -89,9 +95,13 @@
     border: none;
     margin-top: 2%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
+=======
+    margin-left: 1%;
+>>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
     height: 40px; 
     width: 120px;
 }
@@ -101,8 +111,11 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
+=======
+>>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 @mixin button-b-r-inter($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -115,8 +128,23 @@
     width: auto;
 }
 
+<<<<<<< HEAD
 
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
+=======
+@mixin button-b-r-orange($ff, $color, $fs){
+    font-family: $ff;
+    background-color: $color;
+    font-size: $fs;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+    margin-left: 1%;
+    height: 40px; 
+    width: auto;
+}
+
+>>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -146,6 +174,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin btn-stl(){
 =======
 @mixin btn-stl($color){
@@ -153,11 +182,15 @@
 =======
 @mixin btn-stl($color){
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
+=======
+@mixin btn-stl($color){
+>>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     background-color: aqua;
@@ -167,6 +200,9 @@
 =======
     background-color: $color;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
+=======
+    background-color: $color;
+>>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -185,9 +221,12 @@
     height: 40px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
+=======
+>>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 }

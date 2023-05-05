@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https:use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <section id="app" class="container">
+        <!--Header/Nav Bar-->
+        <header class="position-relative">
+            <div class="nav-clr-bg">
+                <img v-bind:src="imageLogo" alt="logo">
+                <h1 class="nav-txt-pstn set-ff">{{namePage}}</h1>
+
+                <div>
+                    <ul style="display: flex; margin: 25px;">
+                        <a href="" class="nav-links buttons-animation">Categorias </a>
+                        <a href="" class="nav-links buttons-animation">Para Cada Ocación </a>
+                        <a href="" class="nav-links buttons-animation">Más votadas </a>
+
+                    </ul>
+
+                </div>
+
+                <div class="container-animation">
+                    <div class="index-animation">
+                        <input type="text" placeholder="Buscar" class="index-pstn">
+                        <div class="button-search">
+                            <img class="search-image" src="./imgs/iconos/buscar.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </header>
+
+        <section id="app" class="container">
+
+
+            <!--Best Recipes-->
+
+            <section class="row margin-l">
+                <div v-if="hasRecipes" v-for="(selected_recipes, index) in selected_recipes" class="col-md">
+                    <div class="card">
+                        <div style="display: flex; width: 200px; ">
+                            <img v-bind:src="selected_recipes.image" class="card-img-top" alt="Feature recipe" style="height: 500px; 
+                    width: 500px;">
+                            <div class="card-body">
+                                <div style="margin-left: 5%; margin-right: 5%; height: auto; width: 600px;">
+                                    <h3 class="set-ff">{{ selected_recipes.name }}</h3>
+                                    <p class="set-ff" style="margin-left: 15%;">{{ selected_recipes.ingredients }}</p>
+                                    <p class="set-ff" style="margin-left: 15%;">{{ selected_recipes.instructions }}</p>
+                                    <div style="display: flex; justify-content: left; flex-direction: row;">
+                                        <p class="set-ff" style="margin-left: 15%;"> {{ selected_recipes.time }}</p>
+                                        <p class="set-ff" style="margin-left: 15%;">{{ selected_recipes.level }}</p>
+                                        <p class="set-ff" style="margin-left: 15%;">{{ selected_recipes.likes }}</p>
+                                    </div>
+                                    
+                                    <div style="display: flex; justify-content: right; padding-right: 5%;">
+                                        <button class="btn btn-danger" v-on:click="onClickLike(index)">Like</button>
+                                        <button class="btn btn-dark" v-on:click="onClickUnlike(index)">Unlike</button>
+                                        <button class="btn-orange btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop"
+                                            v-on:click="onClickViewRecipe(index)">ViewRecipe</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!--Best Recipes-->
+        </section>
+        </div>
+
+        <!--Footer-->
+        <footer style="display: flex; flex-direction: column; margin-top: 10%;
+        justify-content: center; align-items: center;">
+
+            <img v-bind:src="imageLogo" alt="logo" style="height: 80px; opacity: 90%; padding-top: 10px;">
+            <div style="display: flex; justify-content: center; align-items: center; padding-top: 10px;">
+                <img v-bind:src="imageInsta" alt="logo" style="height: 25px; opacity: 90%; margin: 5%;">
+                <img v-bind:src="imageFace" alt="logo" style="height: 25px; opacity: 90%; margin: 5%;">
+                <img v-bind:src="imageTT" alt="logo" style="height: 25px; opacity: 90%; margin: 5%;">
+            </div>
+            <p style="font-size: 0.75rem; padding-top: 10px;">2022, GastroLife. Marca Registrada por O&P, S.A. Esparza
+                (Costa Rica)</p>
+        </footer>
+        <!--Footer-->
+    </section>
+
+    <!--VueJS-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!--vue-->
+    <script src="./js/main.js"></script>
+
+    <!-- <script src="./js/components/ClickCounter.js"></script>-->
+    <script src="./js/components/RecipeCards.js"></script>
+
+
+    <script>
+        const mountedApp = app.mount("#app");
+    </script>
+
+</body>
+
+</html>
