@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin button-style($ff, $color){
     font-family: $ff;
     color: $color;
@@ -63,6 +64,8 @@
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -82,11 +85,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -96,12 +102,16 @@
     margin-top: 2%;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
     margin-left: 1%;
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+    margin-left: 1%;
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
     height: 40px; 
     width: 120px;
 }
@@ -112,10 +122,13 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 @mixin button-b-r-inter($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -129,9 +142,12 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 @mixin button-b-r-orange($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -144,7 +160,10 @@
     width: auto;
 }
 
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -175,6 +194,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin btn-stl(){
 =======
 @mixin btn-stl($color){
@@ -185,11 +205,15 @@
 =======
 @mixin btn-stl($color){
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+@mixin btn-stl($color){
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +227,9 @@
 =======
     background-color: $color;
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+    background-color: $color;
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -222,6 +249,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -229,4 +257,12 @@
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+}
+
+@mixin imagen-body(){
+    background-size: cover;
+    background-position: center;
+
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 }

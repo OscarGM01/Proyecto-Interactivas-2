@@ -61,6 +61,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -77,6 +78,8 @@ body {
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
   height: 40px;
   width: 0;
   margin-top: 20px;
@@ -88,6 +91,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -95,6 +99,8 @@ body {
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
@@ -103,6 +109,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -110,6 +117,8 @@ body {
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 .container-animation {
   margin: 15px;
   margin-left: 100px;
@@ -121,6 +130,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -128,6 +138,8 @@ body {
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -13523,6 +13535,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 25px;
   display: inline-block;
   padding: 0 15px;
@@ -13539,6 +13552,8 @@ textarea.form-control-lg {
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13566,6 +13581,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: aqua;
 =======
   background-color: hsl(76deg, 51%, 68%);
@@ -13576,6 +13592,9 @@ textarea.form-control-lg {
 =======
   background-color: hsl(76deg, 51%, 68%);
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+  background-color: hsl(76deg, 51%, 68%);
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
   line-height: 80px;
   border-radius: 50%;
   text-align: center;
@@ -13583,6 +13602,7 @@ textarea.form-control-lg {
 }
 
 .buttons-animation:hover {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13596,6 +13616,9 @@ textarea.form-control-lg {
 =======
   color: hsl(40deg, 96%, 55%);
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+  color: hsl(40deg, 96%, 55%);
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 }
 
 .index-animation:hover input {
@@ -13612,12 +13635,15 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 }
 
 .btn-best-recipes {
@@ -13629,12 +13655,16 @@ textarea.form-control-lg {
   margin-top: 2%;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
   margin-left: 1%;
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+  margin-left: 1%;
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
   height: 40px;
   width: 120px;
 }
@@ -13643,10 +13673,13 @@ textarea.form-control-lg {
   color: hsl(300deg, 3%, 93%);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 }
 
 .btn-best-recipes-internos {
@@ -13660,8 +13693,11 @@ textarea.form-control-lg {
   height: 40px;
   width: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 }
 
 .btn-b-r-inter {
@@ -13674,5 +13710,14 @@ textarea.form-control-lg {
   margin-left: 1%;
   height: 40px;
   width: auto;
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+}
+
+.body-img {
+  background-image: url("..");
+  background-size: cover;
+  background-position: center;
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
 }

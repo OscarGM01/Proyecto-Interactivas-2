@@ -43,6 +43,7 @@ app.component('recipe-card', {
     <div class="row g-0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="col-md-3">
         
         <img v-bind:src="image" class="card-img-top" alt="featured recipe" style="border-radius:25px">
@@ -51,15 +52,20 @@ app.component('recipe-card', {
 =======
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
         <div class="col-md-4">
         
         <img v-bind:src="image" class="card-img-top" alt="featured recipe" style="border-radius:25px">
         </div>
         <div class="col-md-8">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
         <div class="card-body">
         <p>{{ category }}</p>
         <h2 class="card-title" style="color: orange">{{ name }}</h2>
@@ -74,6 +80,7 @@ app.component('recipe-card', {
         
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <button class="btn btn-dark" style="margin-left: 500px" >  Add to my Recipes</button>
         </div>
     </div>
@@ -82,15 +89,20 @@ app.component('recipe-card', {
 =======
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
         <button class="btn btn-dark-GL" style="margin-left: 500px;" >  Add to my Recipes</button>
         </div>
       </div>
     </div>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
+=======
+>>>>>>> c8a738e (inicio pagina de inicio de sesion)
     <!--<div class="card p-3 col-md-3" > 
     
     <div class="card-body">
