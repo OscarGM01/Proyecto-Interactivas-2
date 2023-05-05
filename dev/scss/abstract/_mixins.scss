@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin button-style($ff, $color){
     font-family: $ff;
     color: $color;
@@ -66,6 +67,8 @@
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -86,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -93,6 +97,8 @@
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -103,6 +109,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -112,6 +119,9 @@
 =======
     margin-left: 1%;
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+    margin-left: 1%;
+>>>>>>> 5d15aff (blablaa)
     height: 40px; 
     width: 120px;
 }
@@ -123,12 +133,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 @mixin button-b-r-inter($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -143,11 +156,14 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 @mixin button-b-r-orange($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -161,9 +177,12 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -195,6 +214,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin btn-stl(){
 =======
 @mixin btn-stl($color){
@@ -208,11 +228,15 @@
 =======
 @mixin btn-stl($color){
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+@mixin btn-stl($color){
+>>>>>>> 5d15aff (blablaa)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +254,9 @@
 =======
     background-color: $color;
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+    background-color: $color;
+>>>>>>> 5d15aff (blablaa)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -250,6 +277,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -258,11 +286,70 @@
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
+=======
+>>>>>>> 5d15aff (blablaa)
 }
 
 @mixin imagen-body(){
     background-size: cover;
     background-position: center;
 
+<<<<<<< HEAD
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+}
+
+@mixin set-index-register(){
+    background-color: beige;
+    height: 40px;
+    width: 270px;
+    margin-top: 20px;
+    margin-right: 5px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+@mixin registro-style(){
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+@mixin inicio-sesion-style($color){
+    background-color: $color;
+    height: 600px; width: 400px; 
+    margin-top: 10%; 
+    border-radius: 10%; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+    
+}
+
+@mixin images-L-sesion-style(){
+    height: 80px; 
+    margin-top: 5%
+}
+
+@mixin images-sesion-style(){
+    height: 80px; 
+    opacity: 90%; 
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+@mixin index-position-ssn(){
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    margin-top: 7%;
+}
+
+@mixin buttons-div-ssn(){
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    margin-top: 15%;
+>>>>>>> 5d15aff (blablaa)
 }

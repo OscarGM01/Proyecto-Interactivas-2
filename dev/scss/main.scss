@@ -10,11 +10,13 @@
 
 // layout
 @use './layout/navbar';
+@use './layout/forms';
 
 // ventors
 @use './vendor/bootstrap/bootstrap.scss';
 
 // buttons
+<<<<<<< HEAD
 <<<<<<< HEAD
 @use './components/buttons';
 =======
@@ -24,3 +26,10 @@
 
 @use './components/cover';
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+@use './components/buttons';
+
+//covers
+@use './components/cover';
+
+>>>>>>> 5d15aff (blablaa)

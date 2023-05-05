@@ -1,0 +1,27 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+
+.set-div-regist{
+    @include mixins.registro-style();
+}
+
+.style-start{
+    @include mixins.inicio-sesion-style(variables.$clr-Liht-green);
+}
+
+.img-strt-ssn-logo{
+    @include mixins.images-L-sesion-style();
+}       
+
+.img-strt-ssn{
+    @include mixins.images-sesion-style();
+}       
+
+.div-index-ssn{
+    @include mixins.index-position-ssn();
+}
+
+.div-btn-ssn{
+    @include mixins.buttons-div-ssn();
+}

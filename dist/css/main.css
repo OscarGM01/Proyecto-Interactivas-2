@@ -62,6 +62,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -80,6 +81,8 @@ body {
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
   height: 40px;
   width: 0;
   margin-top: 20px;
@@ -92,6 +95,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -101,10 +105,13 @@ body {
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +126,8 @@ body {
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 .container-animation {
   margin: 15px;
   margin-left: 100px;
@@ -131,6 +140,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -140,6 +150,78 @@ body {
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+.set-div-regist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.style-start {
+  background-color: hsl(76deg, 51%, 68%);
+  height: 600px;
+  width: 400px;
+  margin-top: 10%;
+  border-radius: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.img-strt-ssn-logo {
+  height: 80px;
+  margin-top: 5%;
+}
+
+.img-strt-ssn {
+  height: 80px;
+  opacity: 90%;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.div-index-ssn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 7%;
+}
+
+.div-btn-ssn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15%;
+}
+
+>>>>>>> 5d15aff (blablaa)
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -13536,6 +13618,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 25px;
   display: inline-block;
   padding: 0 15px;
@@ -13554,6 +13637,8 @@ textarea.form-control-lg {
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13582,6 +13667,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: aqua;
 =======
   background-color: hsl(76deg, 51%, 68%);
@@ -13595,6 +13681,9 @@ textarea.form-control-lg {
 =======
   background-color: hsl(76deg, 51%, 68%);
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+  background-color: hsl(76deg, 51%, 68%);
+>>>>>>> 5d15aff (blablaa)
   line-height: 80px;
   border-radius: 50%;
   text-align: center;
@@ -13602,6 +13691,7 @@ textarea.form-control-lg {
 }
 
 .buttons-animation:hover {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13619,6 +13709,9 @@ textarea.form-control-lg {
 =======
   color: hsl(40deg, 96%, 55%);
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+  color: hsl(40deg, 96%, 55%);
+>>>>>>> 5d15aff (blablaa)
 }
 
 .index-animation:hover input {
@@ -13636,6 +13729,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 =======
@@ -13644,6 +13738,8 @@ textarea.form-control-lg {
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 }
 
 .btn-best-recipes {
@@ -13656,6 +13752,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -13665,6 +13762,9 @@ textarea.form-control-lg {
 =======
   margin-left: 1%;
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+  margin-left: 1%;
+>>>>>>> 5d15aff (blablaa)
   height: 40px;
   width: 120px;
 }
@@ -13674,12 +13774,15 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 =======
 =======
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 }
 
 .btn-best-recipes-internos {
@@ -13694,10 +13797,13 @@ textarea.form-control-lg {
   width: auto;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+>>>>>>> 5d15aff (blablaa)
 }
 
 .btn-b-r-inter {
@@ -13711,6 +13817,7 @@ textarea.form-control-lg {
   height: 40px;
   width: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 }
@@ -13720,4 +13827,22 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: center;
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
+=======
+}
+
+.register-index {
+  background-color: beige;
+  height: 40px;
+  width: 270px;
+  margin-top: 20px;
+  margin-right: 5px;
+  color: black;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.body-img {
+  background-size: cover;
+  background-position: center;
+>>>>>>> 5d15aff (blablaa)
 }
