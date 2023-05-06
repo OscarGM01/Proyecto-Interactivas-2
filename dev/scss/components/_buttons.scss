@@ -1,6 +1,7 @@
 @use '../abstract/variables';
 @use '../abstract/mixins';
 
+<<<<<<< HEAD
 .nav-links{
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27,10 +28,15 @@
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+//Botones Header
+.nav-links{
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
     @include mixins.button-style(variables.$ff, variables.$clr-white, variables.$fs-s);
 }
 
 .button-search{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +80,14 @@
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+    @include mixins.btn-stl(variables.$clr-Liht-green);
+}
+
+//Animacion Botones
+.buttons-animation:hover {
+    @include mixins.input-anmtn-btm(variables.$clr-orange-100);
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }
 
 .index-animation:hover input{
@@ -82,6 +96,7 @@
 
 .search-image{
     @include mixins.set-search-img-stl();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,12 +117,19 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
+=======
+}
+
+
+//Botones Best Recipes
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .btn-best-recipes{
     @include mixins.button-b-r(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 
 .btn-best-recipes-clr{
     @include mixins.button-b-r-clr(variables.$clr-white); 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,10 +161,19 @@
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+}
+
+
+//Botones en Modal
+.btn-best-recipes-internos{
+    @include mixins.button-b-r-inter(variables.$ff, variables.$clr-green, variables.$fs-s);
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }
 
 .btn-b-r-inter{
     @include mixins.button-b-r-orange(variables.$ff, variables.$clr-Liht-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,10 +186,17 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
+=======
+}
+
+
+//Index Pagina de Registro
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .register-index{
     @include mixins.set-index-register();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5d15aff (blablaa)
 =======
@@ -166,3 +204,9 @@
     @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+//Boton Adaptativo
+.btn-adapt{
+    @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
+}
+>>>>>>> bd23b2a (Pagina perdil Finalizada)

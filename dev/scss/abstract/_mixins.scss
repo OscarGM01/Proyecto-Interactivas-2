@@ -2,7 +2,6 @@
 @mixin set-text-position($color){
     margin-top: 15px;
     color: $color;
-    //background-color: aqua;
 }
 
 @mixin set-background($color){
@@ -12,11 +11,12 @@
     display: flex;
 }
 
+//carrusel intento
 @mixin carousel(){
     position: relative;
 
 }
-//carrusel intento
+
 @mixin set-carousel-images(){
     width: 100%;
     height: 300px;
@@ -27,6 +27,7 @@
     
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +73,8 @@
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -94,6 +97,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -105,6 +109,9 @@
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+//Estilo para los botones
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -117,6 +124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -132,6 +140,9 @@
 =======
     margin-left: 1%;
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+    margin-left: 1%;
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
     height: 40px; 
     width: 120px;
 }
@@ -140,6 +151,7 @@
     color: $color;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +167,8 @@
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin button-b-r-inter($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -171,6 +185,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
@@ -180,6 +195,8 @@
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin button-b-r-orange($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -195,6 +212,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
@@ -202,6 +220,8 @@
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -235,6 +255,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin btn-stl(){
 =======
 @mixin btn-stl($color){
@@ -254,11 +275,15 @@
 =======
 @mixin btn-stl($color){
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+@mixin btn-stl($color){
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +309,9 @@
 =======
     background-color: $color;
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+    background-color: $color;
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -306,6 +334,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -320,10 +349,16 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
+=======
+}
+
+//Diseño del background
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin imagen-body(){
     background-size: cover;
     background-position: center;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
@@ -332,6 +367,11 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 }
 
+=======
+}
+
+//index de la pagina de registro
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin set-index-register(){
     background-color: beige;
     height: 40px;
@@ -360,6 +400,10 @@
     
 }
 
+<<<<<<< HEAD
+=======
+//Estilos Pagina Recuperar Contraseña
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin images-L-sesion-style(){
     height: 80px; 
     margin-top: 5%
@@ -373,14 +417,20 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin images-lock-style(){
     height: 80px; 
     opacity: 90%; 
     margin-top: 5%;
 }
 
+<<<<<<< HEAD
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin index-position-ssn(){
     display: flex; 
     align-items: center; 
@@ -394,11 +444,17 @@
     flex-direction: column; 
     margin-top: 15%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5d15aff (blablaa)
 }
 =======
 }
 
+=======
+}
+
+//Boton con tamaño adaptativo
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 @mixin button-adaptative($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -410,4 +466,7 @@
     height: auto; 
     width: auto;
 }
+<<<<<<< HEAD
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)

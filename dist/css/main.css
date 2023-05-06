@@ -64,6 +64,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -86,6 +87,8 @@ body {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
   height: 40px;
   width: 0;
   margin-top: 20px;
@@ -100,6 +103,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -113,10 +117,13 @@ body {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +144,8 @@ body {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .container-animation {
   margin: 15px;
   margin-left: 100px;
@@ -151,6 +160,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -163,6 +173,8 @@ body {
 =======
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .set-div-regist {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,6 +187,37 @@ body {
           justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+.div-index-ssn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 7%;
+}
+
+.div-btn-ssn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15%;
+}
+
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .style-start {
   background-color: hsl(76deg, 51%, 68%);
   height: 600px;
@@ -205,6 +248,7 @@ body {
   border-radius: 50%;
 }
 
+<<<<<<< HEAD
 .div-index-ssn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -236,13 +280,18 @@ body {
 <<<<<<< HEAD
 >>>>>>> 5d15aff (blablaa)
 =======
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .img-lock {
   height: 80px;
   opacity: 90%;
   margin-top: 5%;
 }
 
+<<<<<<< HEAD
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -13641,6 +13690,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 25px;
   display: inline-block;
   padding: 0 15px;
@@ -13663,6 +13713,8 @@ textarea.form-control-lg {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13693,6 +13745,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: aqua;
 =======
   background-color: hsl(76deg, 51%, 68%);
@@ -13712,6 +13765,9 @@ textarea.form-control-lg {
 =======
   background-color: hsl(76deg, 51%, 68%);
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+  background-color: hsl(76deg, 51%, 68%);
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
   line-height: 80px;
   border-radius: 50%;
   text-align: center;
@@ -13719,6 +13775,7 @@ textarea.form-control-lg {
 }
 
 .buttons-animation:hover {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13744,6 +13801,9 @@ textarea.form-control-lg {
 =======
   color: hsl(40deg, 96%, 55%);
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+  color: hsl(40deg, 96%, 55%);
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }
 
 .index-animation:hover input {
@@ -13763,6 +13823,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 =======
@@ -13775,6 +13836,8 @@ textarea.form-control-lg {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }
 
 .btn-best-recipes {
@@ -13789,6 +13852,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -13804,12 +13868,16 @@ textarea.form-control-lg {
 =======
   margin-left: 1%;
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+  margin-left: 1%;
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
   height: 40px;
   width: 120px;
 }
 
 .btn-best-recipes-clr {
   color: hsl(300deg, 3%, 93%);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13825,6 +13893,8 @@ textarea.form-control-lg {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }
 
 .btn-best-recipes-internos {
@@ -13841,6 +13911,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 =======
@@ -13849,6 +13920,8 @@ textarea.form-control-lg {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }
 
 .btn-b-r-inter {
@@ -13864,6 +13937,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 }
@@ -13876,6 +13950,8 @@ textarea.form-control-lg {
 =======
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }
 
 .register-index {
@@ -13890,11 +13966,14 @@ textarea.form-control-lg {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .body-img {
   background-size: cover;
   background-position: center;
 >>>>>>> 5d15aff (blablaa)
 =======
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .btn-adapt {
   font-family: "DM Sans", "inter";
   background-color: hsl(150deg, 16%, 41%);
@@ -13910,5 +13989,8 @@ textarea.form-control-lg {
 .body-img {
   background-size: cover;
   background-position: center;
+<<<<<<< HEAD
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }

@@ -1,15 +1,34 @@
 @use '../abstract/variables';
 @use '../abstract/mixins';
 
+<<<<<<< HEAD
 
+=======
+//Estilos Nav Pagina de Registro/Recuperar Contraseña
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .set-div-regist{
     @include mixins.registro-style();
 }
 
+<<<<<<< HEAD
+=======
+.div-index-ssn{
+    @include mixins.index-position-ssn();
+}
+
+.div-btn-ssn{
+    @include mixins.buttons-div-ssn();
+}
+
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .style-start{
     @include mixins.inicio-sesion-style(variables.$clr-Liht-green);
 }
 
+<<<<<<< HEAD
+=======
+//Estilos Imagen Pagina de Registro/Recuperar Contraseña
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .img-strt-ssn-logo{
     @include mixins.images-L-sesion-style();
 }       
@@ -18,6 +37,7 @@
     @include mixins.images-sesion-style();
 }       
 
+<<<<<<< HEAD
 .div-index-ssn{
     @include mixins.index-position-ssn();
 }
@@ -31,4 +51,8 @@
 .img-lock{
     @include mixins.images-lock-style();
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+.img-lock{
+    @include mixins.images-lock-style();
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 }

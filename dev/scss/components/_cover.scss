@@ -1,7 +1,11 @@
 @use '../abstract/variables';
 @use '../abstract/mixins';
 
+<<<<<<< HEAD
 
+=======
+//Imagen Fondo Pagina de sesion/recuperar contraseña
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
 .body-img{
     @include mixins.imagen-body();
 }

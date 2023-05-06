@@ -46,6 +46,7 @@ app.component('recipe-card', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="col-md-3">
         
         <img v-bind:src="image" class="card-img-top" alt="featured recipe" style="border-radius:25px">
@@ -60,11 +61,14 @@ app.component('recipe-card', {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
         <div class="col-md-4">
         
         <img v-bind:src="image" class="card-img-top" alt="featured recipe" style="border-radius:25px">
         </div>
         <div class="col-md-8">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +82,8 @@ app.component('recipe-card', {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
         <div class="card-body">
         <p>{{ category }}</p>
         <h2 class="card-title" style="color: orange">{{ name }}</h2>
@@ -90,6 +96,7 @@ app.component('recipe-card', {
         <p class="card-text filep">{{ level }}</p>
         </div>
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,11 +116,14 @@ app.component('recipe-card', {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
         <button class="btn btn-dark-GL" style="margin-left: 500px;" >  Add to my Recipes</button>
         </div>
       </div>
     </div>
   </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +137,8 @@ app.component('recipe-card', {
 >>>>>>> 5d15aff (blablaa)
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
+=======
+>>>>>>> bd23b2a (Pagina perdil Finalizada)
     <!--<div class="card p-3 col-md-3" > 
     
     <div class="card-body">
