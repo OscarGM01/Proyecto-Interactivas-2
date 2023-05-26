@@ -2,16 +2,23 @@
 @use '../abstract/mixins';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 //Estilos Nav Pagina de Registro/Recuperar Contraseña
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+//Estilos Nav Pagina de Registro/Recuperar Contraseña
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 .set-div-regist{
     @include mixins.registro-style();
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 .div-index-ssn{
     @include mixins.index-position-ssn();
 }
@@ -20,15 +27,22 @@
     @include mixins.buttons-div-ssn();
 }
 
+<<<<<<< HEAD
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 .style-start{
     @include mixins.inicio-sesion-style(variables.$clr-Liht-green);
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //Estilos Imagen Pagina de Registro/Recuperar Contraseña
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+//Estilos Imagen Pagina de Registro/Recuperar Contraseña
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 .img-strt-ssn-logo{
     @include mixins.images-L-sesion-style();
 }       
@@ -37,6 +51,7 @@
     @include mixins.images-sesion-style();
 }       
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .div-index-ssn{
     @include mixins.index-position-ssn();
@@ -55,4 +70,8 @@
 .img-lock{
     @include mixins.images-lock-style();
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+.img-lock{
+    @include mixins.images-lock-style();
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 }

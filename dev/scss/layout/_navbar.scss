@@ -10,6 +10,20 @@
     @include mixins.set-background(variables.$clr-green);
 }
 
+<<<<<<< HEAD
+=======
+.set-pst-text{
+    @include mixins.set-txt-center();
+}
+
+.texto-sobrepuesto{
+    @include mixins.text-overlay-L(variables.$clr-white, variables.$fs-xl);
+}
+
+.texto-sobrepuesto-r{
+    @include mixins.text-overlay-R(variables.$clr-white, variables.$fs-xl);
+}
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 .set-ff{
     @include mixins.set-font-family(variables.$ff);
 }
@@ -18,6 +32,7 @@
     @include mixins.set-index-position();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -42,11 +57,14 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 .container-animation{
     @include mixins.cntr-anmtn();
 }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,3 +87,6 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+
+>>>>>>> 82a112e (Arreglo del Nav bar1)

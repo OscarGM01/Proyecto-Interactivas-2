@@ -1,16 +1,62 @@
 
 @mixin set-text-position($color){
+<<<<<<< HEAD
     margin-top: 15px;
     color: $color;
+=======
+    color: $color;
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 }
 
 @mixin set-background($color){
     background-color: $color;
+<<<<<<< HEAD
     height:75px;
+=======
+    height: 100px;
+>>>>>>> 82a112e (Arreglo del Nav bar1)
     width: 100%;
     display: flex;
 }
 
+<<<<<<< HEAD
+=======
+@mixin set-txt-center(){
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+    margin-top: 13px;
+}
+
+@mixin text-overlay-L($color, $fs){
+    position: absolute;
+    width: 220px;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: $color;
+    font-size: $fs;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    
+}
+
+@mixin text-overlay-R($color, $fs){
+    position: absolute;
+    width: 260px;
+    bottom: 1%;
+    right: -12%;
+    transform: translate(-50%, -50%);
+    color: $color;
+    font-size: $fs;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    
+}
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 //carrusel intento
 @mixin carousel(){
     position: relative;
@@ -20,13 +66,17 @@
 @mixin set-carousel-images(){
     width: 100%;
     height: 300px;
-    border-radius: 25px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin set-font-family($ff){
     font-family: $ff;
     
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +125,8 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -98,6 +150,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -112,6 +165,9 @@
 =======
 //Estilo para los botones
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+//Estilo para los botones
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -119,6 +175,7 @@
     border-radius: 10px;
     border: none;
     margin-top: 2%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,10 +200,14 @@
 =======
     margin-left: 1%;
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+    margin-left: 1%;
+>>>>>>> 82a112e (Arreglo del Nav bar1)
     height: 40px; 
     width: 120px;
 }
 
+<<<<<<< HEAD
 @mixin button-b-r-clr($color){
     color: $color;
 }
@@ -169,6 +230,14 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+@mixin button-b-r-clr($color, $fs){
+    color: $color;
+    font-size: $fs;
+    margin-bottom: 2%;
+}
+
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin button-b-r-inter($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -186,6 +255,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
@@ -197,6 +267,8 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin button-b-r-orange($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -213,6 +285,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a0583ad (Pagina Principal finalizada y pagina de la receta tamb)
 =======
 >>>>>>> c8a738e (inicio pagina de inicio de sesion)
@@ -222,6 +295,8 @@
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -256,6 +331,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin btn-stl(){
 =======
 @mixin btn-stl($color){
@@ -278,11 +354,15 @@
 =======
 @mixin btn-stl($color){
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+@mixin btn-stl($color){
+>>>>>>> 82a112e (Arreglo del Nav bar1)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +392,9 @@
 =======
     background-color: $color;
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+    background-color: $color;
+>>>>>>> 82a112e (Arreglo del Nav bar1)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -328,6 +411,7 @@
 @mixin input-anmtn(){
     width: 200px;
     height: 40px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,10 +438,16 @@
 
 //Diseño del background
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+}
+
+//Diseño del background
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin imagen-body(){
     background-size: cover;
     background-position: center;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +462,11 @@
 
 //index de la pagina de registro
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+}
+
+//index de la pagina de registro
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin set-index-register(){
     background-color: beige;
     height: 40px;
@@ -401,9 +496,13 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //Estilos Pagina Recuperar Contraseña
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+//Estilos Pagina Recuperar Contraseña
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin images-L-sesion-style(){
     height: 80px; 
     margin-top: 5%
@@ -418,9 +517,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin images-lock-style(){
     height: 80px; 
     opacity: 90%; 
@@ -428,9 +530,12 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 @mixin index-position-ssn(){
     display: flex; 
     align-items: center; 
@@ -443,6 +548,7 @@
     align-items: center; 
     flex-direction: column; 
     margin-top: 15%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5d15aff (blablaa)
@@ -459,6 +565,14 @@
     font-family: $ff;
     background-color: $color;
     font-size: $fs;
+=======
+}
+
+//Boton con tamaño adaptativo
+@mixin button-adaptative($ff, $color, $fs){
+    font-family: $ff;
+    background-color: $color;
+>>>>>>> 82a112e (Arreglo del Nav bar1)
     border-radius: 10px;
     border: none;
     margin-top: 2%;
@@ -467,6 +581,9 @@
     width: auto;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)

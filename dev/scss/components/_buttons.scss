@@ -2,6 +2,7 @@
 @use '../abstract/mixins';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nav-links{
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,10 +33,15 @@
 //Botones Header
 .nav-links{
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+//Botones Header
+.nav-links{
+>>>>>>> 82a112e (Arreglo del Nav bar1)
     @include mixins.button-style(variables.$ff, variables.$clr-white, variables.$fs-s);
 }
 
 .button-search{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,13 +87,18 @@
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
     @include mixins.btn-stl(variables.$clr-Liht-green);
 }
 
 //Animacion Botones
 .buttons-animation:hover {
     @include mixins.input-anmtn-btm(variables.$clr-orange-100);
+<<<<<<< HEAD
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 }
 
 .index-animation:hover input{
@@ -96,6 +107,7 @@
 
 .search-image{
     @include mixins.set-search-img-stl();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,16 +130,22 @@
 }
 
 =======
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 }
 
 
 //Botones Best Recipes
+<<<<<<< HEAD
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 .btn-best-recipes{
     @include mixins.button-b-r(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 
 .btn-best-recipes-clr{
+<<<<<<< HEAD
     @include mixins.button-b-r-clr(variables.$clr-white); 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,17 +180,24 @@
 =======
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
+=======
+    @include mixins.button-b-r-clr(variables.$clr-white, variables.$fs-l);
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 }
 
 
 //Botones en Modal
 .btn-best-recipes-internos{
     @include mixins.button-b-r-inter(variables.$ff, variables.$clr-green, variables.$fs-s);
+<<<<<<< HEAD
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 }
 
 .btn-b-r-inter{
     @include mixins.button-b-r-orange(variables.$ff, variables.$clr-Liht-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,15 +212,21 @@
 }
 
 =======
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 }
 
 
 //Index Pagina de Registro
+<<<<<<< HEAD
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+>>>>>>> 82a112e (Arreglo del Nav bar1)
 .register-index{
     @include mixins.set-index-register();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5d15aff (blablaa)
@@ -210,3 +241,9 @@
     @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
+=======
+//Boton Adaptativo
+.btn-adapt{
+    @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
+}
+>>>>>>> 82a112e (Arreglo del Nav bar1)
