@@ -12,9 +12,12 @@ body {
   width: 100%;
   height: 300px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-radius: 25px;
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 }
 
 /* <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -42,9 +45,12 @@ body {
 </div>*/
 .nav-txt-pstn {
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top: 15px;
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   color: hsl(300deg, 3%, 93%);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,10 +67,14 @@ body {
 .nav-clr-bg {
   background-color: hsl(150deg, 16%, 41%);
 <<<<<<< HEAD
+<<<<<<< HEAD
   height: 75px;
 =======
   height: 100px;
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+  height: 100px;
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,7 +82,10 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 .set-pst-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -113,13 +126,17 @@ body {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 .set-ff {
   font-family: "DM Sans", "inter";
 }
 
 .index-pstn {
   background-color: beige;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +172,8 @@ body {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   height: 40px;
   width: 0;
   margin-top: 20px;
@@ -171,6 +190,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -188,10 +208,13 @@ body {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +241,8 @@ body {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 .container-animation {
   margin: 15px;
   margin-left: 100px;
@@ -234,6 +259,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22afb66 (Actualizacion de las animaciones y distribucion en 7 en 1)
 =======
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
@@ -250,6 +276,8 @@ body {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 .set-div-regist {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,9 +292,12 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 .div-index-ssn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -296,9 +327,12 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 .style-start {
   background-color: hsl(76deg, 51%, 68%);
   height: 600px;
@@ -331,6 +365,7 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .div-index-ssn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -366,6 +401,8 @@ body {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 .img-lock {
   height: 80px;
   opacity: 90%;
@@ -374,11 +411,14 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -13779,6 +13819,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 25px;
   display: inline-block;
   padding: 0 15px;
@@ -13805,6 +13846,8 @@ textarea.form-control-lg {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13829,6 +13872,7 @@ textarea.form-control-lg {
   top: 50%;
   height: 50px;
   width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13862,6 +13906,9 @@ textarea.form-control-lg {
 =======
   background-color: hsl(76deg, 51%, 68%);
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+  background-color: hsl(76deg, 51%, 68%);
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   line-height: 80px;
   border-radius: 50%;
   text-align: center;
@@ -13869,6 +13916,7 @@ textarea.form-control-lg {
 }
 
 .buttons-animation:hover {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13902,6 +13950,9 @@ textarea.form-control-lg {
 =======
   color: hsl(40deg, 96%, 55%);
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+  color: hsl(40deg, 96%, 55%);
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 }
 
 .index-animation:hover input {
@@ -13915,6 +13966,7 @@ textarea.form-control-lg {
   right: 20%;
   height: 30px;
   width: auto;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13939,6 +13991,8 @@ textarea.form-control-lg {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 }
 
 .btn-best-recipes {
@@ -13948,6 +14002,7 @@ textarea.form-control-lg {
   border-radius: 10px;
   border: none;
   margin-top: 2%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13976,12 +14031,16 @@ textarea.form-control-lg {
 =======
   margin-left: 1%;
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+  margin-left: 1%;
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   height: 40px;
   width: 120px;
 }
 
 .btn-best-recipes-clr {
   color: hsl(300deg, 3%, 93%);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14005,6 +14064,10 @@ textarea.form-control-lg {
   font-size: 2rem;
   margin-bottom: 2%;
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+  font-size: 2rem;
+  margin-bottom: 2%;
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 }
 
 .btn-best-recipes-internos {
@@ -14023,6 +14086,7 @@ textarea.form-control-lg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
 =======
 =======
@@ -14035,17 +14099,26 @@ textarea.form-control-lg {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 }
 
 .btn-b-r-inter {
   font-family: "DM Sans", "inter";
+<<<<<<< HEAD
   background-color: hsl(76deg, 51%, 68%);
   font-size: 1.25rem;
   border-radius: 10px;
+=======
+  background-color: hsl(150deg, 16%, 41%);
+  font-size: 1.25rem;
+  border-radius: 35px;
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   border: none;
   margin-top: 2%;
   margin-left: 1%;
   height: 40px;
+<<<<<<< HEAD
   width: auto;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14068,6 +14141,9 @@ textarea.form-control-lg {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+  width: 80px;
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 }
 
 .register-index {
@@ -14081,6 +14157,7 @@ textarea.form-control-lg {
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14100,6 +14177,11 @@ textarea.form-control-lg {
   font-family: "DM Sans", "inter";
   background-color: hsl(150deg, 16%, 41%);
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+.btn-adapt {
+  font-family: "DM Sans", "inter";
+  background-color: hsl(150deg, 16%, 41%);
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
   border-radius: 10px;
   border: none;
   margin-top: 2%;
@@ -14113,9 +14195,49 @@ textarea.form-control-lg {
   background-position: center;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0797de7 (Pagina de recuperacion de contrasena lista)
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+}
+
+.card-podium {
+  height: 300px;
+  width: 100%;
+}
+
+.card-name-podium-one {
+  position: absolute;
+  width: 220px;
+  bottom: 10%;
+  left: 32%;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
+  color: hsl(300deg, 3%, 93%);
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.card-btn-view {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  -webkit-transform: translate(-5%, 20%);
+          transform: translate(-5%, 20%);
+  color: hsl(300deg, 3%, 93%);
+  font-size: 2rem;
+}
+
+.card-crown {
+  position: absolute;
+  top: -3%;
+  right: 0;
+  height: 60px;
+  -webkit-transform: translate(-5%, 20%);
+          transform: translate(-5%, 20%);
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 }

@@ -1,0 +1,18 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+.card-podium{
+    @include mixins.card-podio-one();
+}
+
+.card-name-podium-one{
+    @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl);
+}
+
+.card-btn-view{
+    @include mixins.card-boton-ver(variables.$clr-white, variables.$fs-l);
+}
+
+.card-crown{
+    @include mixins.card-corona();
+}

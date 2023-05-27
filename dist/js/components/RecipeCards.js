@@ -39,6 +39,7 @@ app.component('recipe-card', {
     },
     template:
         /*html*/
+<<<<<<< HEAD
         `<div class="card mb-3" style="col-md-3">
     <div class="row g-0">
 <<<<<<< HEAD
@@ -151,6 +152,11 @@ app.component('recipe-card', {
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
+=======
+    `<div>
+        <img v-bind:src="image" class="card-podium" alt="featured recipe">
+    </div>
+>>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
     <!--<div class="card p-3 col-md-3" > 
     
     <div class="card-body">
