@@ -6,7 +6,11 @@
 }
 
 .card-name-podium-one{
+<<<<<<< HEAD
     @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl);
+=======
+    @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
+>>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 }
 
 .card-btn-view{
@@ -15,4 +19,11 @@
 
 .card-crown{
     @include mixins.card-corona();
+<<<<<<< HEAD
+=======
+}
+
+.card-crown-num{
+    @include mixins.card-corona-numero(variables.$ff-card, variables.$clr-white);
+>>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 }

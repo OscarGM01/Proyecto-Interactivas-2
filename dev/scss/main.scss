@@ -7,10 +7,18 @@
 
 // components   
 @use './components/carousel';
+@use './components/buttons';
+@use './components/cover';
 
 // layout
 @use './layout/navbar';
 @use './layout/forms';
+<<<<<<< HEAD
+=======
+@use './layout/footer';
+
+@use './components/cards';
+>>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 
 // ventors
 @use './vendor/bootstrap/bootstrap.scss';

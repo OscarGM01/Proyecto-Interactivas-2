@@ -1,0 +1,22 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+.footer-style{
+    @include mixins.footer-estilos();
+}
+
+.footer-logo{
+    @include mixins.footer-logo-style();
+}
+
+.footer-nav-icons{
+    @include mixins.nav-icons-foot();
+}
+
+.footer-icons{
+    @include mixins.icons-foot();
+}
+
+.footer-description{
+    @include mixins.desc-foot(variables.$fs-xs);
+}
