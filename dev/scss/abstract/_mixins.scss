@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 15px;
     color: $color;
 =======
@@ -30,10 +31,17 @@
     align-items: center; 
     flex-direction: row; 
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    color: $color;
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 @mixin set-background($color){
     background-color: $color;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,10 +59,14 @@
 =======
     height: 100px;
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    height: 100px;
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     width: 100%;
     display: flex;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +78,8 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin set-txt-center(){
     display: flex; 
     align-items: center; 
@@ -74,6 +88,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin text-overlay-L($color, $fs){
     position: absolute;
     width: 220px;
@@ -81,6 +96,15 @@
     left: 10%;
     transform: translate(-50%, -50%);
 =======
+=======
+@mixin set-txt-center-J(){
+    display: flex; 
+    justify-content: center;
+    flex-direction: row; 
+    margin-top: 13px;
+}
+
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin text-overlay-L($ff, $color, $fs){
     position: absolute;
     width: 200px;
@@ -88,7 +112,10 @@
     left: 10%;
     transform: translate(-50%, -50%);
     font-family: $ff;
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     color: $color;
     font-size: $fs;
     background-color: rgba(0,0,0,0.5);
@@ -96,6 +123,7 @@
     
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @mixin text-overlay-R($color, $fs){
     position: absolute;
@@ -105,6 +133,8 @@
     transform: translate(-50%, -50%);
     color: $color;
 =======
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin text-overlay-R($ff, $color, $fs){
     position: absolute;
     width: 240px;
@@ -113,12 +143,16 @@
     transform: translate(-50%, -50%);
     color: $color;
     font-family: $ff;
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     font-size: $fs;
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +163,8 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 //carrusel intento
 @mixin carousel(){
     position: relative;
@@ -137,6 +173,7 @@
 
 @mixin set-carousel-images(){
     width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     height: 300px;
@@ -159,11 +196,17 @@
 }
 
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    height: 450px;
+}
+
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin set-font-family($ff){
     font-family: $ff;
     
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,6 +267,8 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -234,6 +279,7 @@
     align-items: center;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: 20px;
 =======
     margin-left: 20%;
@@ -241,6 +287,9 @@
 =======
     margin-left: 20%;
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    margin-left: 20%;
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     width: 170px;
     text-decoration: none;
     font-size: $fs;
@@ -259,6 +308,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -285,6 +335,9 @@
 =======
 //Estilo para los botones
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+//Estilo para los botones
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -302,6 +355,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -332,10 +386,14 @@
 =======
     margin-left: 1%;
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    margin-left: 1%;
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     height: 40px; 
     width: 120px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,12 +427,15 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin button-b-r-clr($color, $fs){
     color: $color;
     font-size: $fs;
     margin-bottom: 2%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,6 +446,8 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin button-b-r-inter($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -397,6 +460,7 @@
     width: auto;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,10 +489,13 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin button-b-r-orange($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
     font-size: $fs;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,10 +509,14 @@
 =======
     border-radius: 35px;
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    border-radius: 35px;
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     border: none;
     margin-top: 2%;
     margin-left: 1%;
     height: 40px; 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -483,6 +554,11 @@
 }
 
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    width: 80px;
+}
+
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -510,6 +586,7 @@
     width: auto;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,11 +632,15 @@
 =======
 @mixin btn-stl($color){
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+@mixin btn-stl($color){
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -605,6 +686,9 @@
 =======
     background-color: $color;
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    background-color: $color;
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -621,6 +705,7 @@
 @mixin input-anmtn(){
     width: 200px;
     height: 40px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,10 +756,16 @@
 
 //Diseño del background
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+}
+
+//Diseño del background
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin imagen-body(){
     background-size: cover;
     background-position: center;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +804,11 @@
 
 //index de la pagina de registro
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+}
+
+//index de la pagina de registro
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin set-index-register(){
     background-color: beige;
     height: 40px;
@@ -746,6 +842,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //Estilos Pagina Recuperar Contraseña
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
@@ -761,6 +858,9 @@
 =======
 //Estilos Pagina Recuperar Contraseña
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+//Estilos Pagina Recuperar Contraseña
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin images-L-sesion-style(){
     height: 80px; 
     margin-top: 5%
@@ -779,6 +879,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
@@ -790,12 +891,15 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin images-lock-style(){
     height: 80px; 
     opacity: 90%; 
     margin-top: 5%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,6 +916,8 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 @mixin index-position-ssn(){
     display: flex; 
     align-items: center; 
@@ -824,6 +930,7 @@
     align-items: center; 
     flex-direction: column; 
     margin-top: 15%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -851,12 +958,15 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 //Boton con tamaño adaptativo
 @mixin button-adaptative($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -882,12 +992,15 @@
 =======
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     border-radius: 10px;
     border: none;
     margin-top: 2%;
     height: auto; 
     width: auto;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 
@@ -896,11 +1009,16 @@
 
 //Estilos cards podium
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+
+//Estilos cards podium
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 
 @mixin card-podio-one(){
     height: 300px;
     width: 100%;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 @mixin card-nombre-one($color, $fs){
@@ -915,6 +1033,11 @@
     position: absolute;
     font-family: $ff;
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+@mixin card-nombre-one($color, $fs, $ff){
+    position: absolute;
+    font-family: $ff;
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     width: 220px;
     bottom: 10%;
     left: 32%;
@@ -946,10 +1069,13 @@
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 =======
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 
 @mixin card-corona-numero($ff, $color,){
     position: absolute;
@@ -963,12 +1089,15 @@
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Footer
 
 @mixin footer-estilos(){
     display: flex; 
     flex-direction: column; 
 =======
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 //under podium
 
 @mixin card-nombre-two($color, $fs, $ff){
@@ -999,7 +1128,10 @@
     display: flex; 
     flex-direction: column; 
     background-color: $color;
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     margin-top: 10%;
     justify-content: center; 
     align-items: center;
@@ -1028,8 +1160,54 @@
     font-size: $fs; 
     padding-top: 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 }
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+}
+
+//profile Cards
+
+@mixin prof-card($color){
+    margin-top: 2%;
+    width: 100%;
+    height: 500px;
+    border: 4px solid $color;
+    border-radius: 30px;
+}
+
+@mixin photo-perfil(){
+    height: 100%; 
+    width: auto; 
+    border-radius: 5%;
+}
+
+@mixin profile-text($color){
+    color: $color; 
+    margin-top: 10%; 
+    justify-content: space-between;
+}
+
+@mixin my-recipes($color){
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin-left: 5%; 
+    height: 97%; 
+    width: 40%; 
+    background-color: $color; 
+    border-radius: 20px;
+}
+
+@mixin button-style-my-r($ff, $color, $fs){
+    font-family: $ff;
+    color: $color;
+    text-decoration: none;
+    font-size: $fs;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)

@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nav-links{
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,10 +53,15 @@
 //Botones Header
 .nav-links{
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+//Botones Header
+.nav-links{
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     @include mixins.button-style(variables.$ff, variables.$clr-white, variables.$fs-s);
 }
 
 .button-search{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,12 +119,15 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     @include mixins.btn-stl(variables.$clr-Liht-green);
 }
 
 //Animacion Botones
 .buttons-animation:hover {
     @include mixins.input-anmtn-btm(variables.$clr-orange-100);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,6 +141,8 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 .index-animation:hover input{
@@ -140,6 +151,7 @@
 
 .search-image{
     @include mixins.set-search-img-stl();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,10 +186,13 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 
 //Botones Best Recipes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,11 +206,14 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 .btn-best-recipes{
     @include mixins.button-b-r(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 
 .btn-best-recipes-clr{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,12 +264,16 @@
 =======
     @include mixins.button-b-r-clr(variables.$clr-white, variables.$fs-l);
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    @include mixins.button-b-r-clr(variables.$clr-white, variables.$fs-l);
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 
 //Botones en Modal
 .btn-best-recipes-internos{
     @include mixins.button-b-r-inter(variables.$ff, variables.$clr-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,10 +307,13 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 .btn-b-r-inter{
     @include mixins.button-b-r-orange(variables.$ff, variables.$clr-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
@@ -296,10 +321,13 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 
 //Index Pagina de Registro
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,10 +341,13 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 .register-index{
     @include mixins.set-index-register();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,3 +390,9 @@
     @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+//Boton Adaptativo
+.btn-adapt{
+    @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
+}
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)

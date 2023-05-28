@@ -2,15 +2,21 @@
 @use '../abstract/mixins';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //Podium Card
 
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+//Podium Card
+
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 .card-podium{
     @include mixins.card-podio-one();
 }
 
 .card-name-podium-one{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl);
@@ -20,6 +26,9 @@
 =======
     @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+    @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 .card-btn-view{
@@ -30,16 +39,22 @@
     @include mixins.card-corona();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 .card-crown-num{
     @include mixins.card-corona-numero(variables.$ff-card, variables.$clr-white);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }
 
 //Under Podium Card
@@ -50,5 +65,38 @@
 
 .card-u-btn-view{
     @include mixins.card-boton-ver-u(variables.$clr-white, variables.$fs-l);
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+}
+
+//Profile Card
+
+.card-profile{
+    @include mixins.prof-card(variables.$clr-orange-100);
+}
+
+.profile-picture{
+    @include mixins.photo-perfil();
+}
+
+.txt-profile{
+    @include mixins.profile-text(variables.$clr-green)
+}
+
+.set-clr {
+    @include mixins.input-anmtn-btm(variables.$clr-green);
+}
+
+.set-clr-lg {
+    @include mixins.input-anmtn-btm(variables.$clr-Liht-green);
+}
+
+.nav-my-recipes{
+    @include mixins.my-recipes(variables.$clr-green);
+}
+
+.my-recipes-links{
+    @include mixins.button-style-my-r(variables.$ff, variables.$clr-white, variables.$fs-s);
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 }

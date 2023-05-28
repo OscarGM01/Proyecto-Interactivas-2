@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
@@ -21,10 +22,13 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 .set-pst-text{
     @include mixins.set-txt-center();
 }
 
+<<<<<<< HEAD
 .texto-sobrepuesto{
 <<<<<<< HEAD
     @include mixins.text-overlay-L(variables.$clr-white, variables.$fs-xl);
@@ -41,13 +45,23 @@
 =======
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
+=======
+.set-text-justify{
+    @include mixins.set-txt-center-J();
+}
+
+.texto-sobrepuesto{
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
     @include mixins.text-overlay-L(variables.$ff-card, variables.$clr-white, variables.$fs-xl);
 }
 
 .texto-sobrepuesto-r{
     @include mixins.text-overlay-R(variables.$ff-card, variables.$clr-white, variables.$fs-xl);
 }
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 .set-ff{
     @include mixins.set-font-family(variables.$ff);
 }
@@ -56,6 +70,7 @@
     @include mixins.set-index-position();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,11 +107,14 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 .container-animation{
     @include mixins.cntr-anmtn();
 }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,3 +153,6 @@
 =======
 
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
+=======
+
+>>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
