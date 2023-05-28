@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 //Estilos Nav Pagina de Registro/Recuperar Contraseña
@@ -18,10 +19,14 @@
 =======
 //Estilos Nav Pagina de Registro/Recuperar Contraseña
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
+=======
+//Estilos Nav Pagina de Registro/Recuperar Contraseña
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 .set-div-regist{
     @include mixins.registro-style();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33,6 +38,8 @@
 >>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 =======
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
+=======
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 .div-index-ssn{
     @include mixins.index-position-ssn();
 }
@@ -44,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
 >>>>>>> 82a112e (Arreglo del Nav bar1)
@@ -51,6 +59,8 @@
 >>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 =======
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
+=======
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 .style-start{
     @include mixins.inicio-sesion-style(variables.$clr-Liht-green);
 }
@@ -59,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //Estilos Imagen Pagina de Registro/Recuperar Contraseña
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
@@ -71,6 +82,9 @@
 =======
 //Estilos Imagen Pagina de Registro/Recuperar Contraseña
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
+=======
+//Estilos Imagen Pagina de Registro/Recuperar Contraseña
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 .img-strt-ssn-logo{
     @include mixins.images-L-sesion-style();
 }       
@@ -79,6 +93,7 @@
     @include mixins.images-sesion-style();
 }       
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,4 +127,8 @@
 .img-lock{
     @include mixins.images-lock-style();
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
+=======
+.img-lock{
+    @include mixins.images-lock-style();
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 }

@@ -2,7 +2,11 @@
 @use '../abstract/mixins';
 
 .footer-style{
+<<<<<<< HEAD
     @include mixins.footer-estilos();
+=======
+    @include mixins.footer-estilos(variables.$clr-grey);
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 }
 
 .footer-logo{

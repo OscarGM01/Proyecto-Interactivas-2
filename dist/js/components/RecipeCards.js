@@ -41,6 +41,7 @@ app.component('recipe-card', {
         /*html*/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `<div class="card mb-3" style="col-md-3">
     <div class="row g-0">
 <<<<<<< HEAD
@@ -162,6 +163,10 @@ app.component('recipe-card', {
     `
     
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
+=======
+    `
+    
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
     <!--<div class="card p-3 col-md-3" > 
     
     <div class="card-body">

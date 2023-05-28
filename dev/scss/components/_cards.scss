@@ -1,16 +1,25 @@
 @use '../abstract/variables';
 @use '../abstract/mixins';
 
+<<<<<<< HEAD
+=======
+//Podium Card
+
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 .card-podium{
     @include mixins.card-podio-one();
 }
 
 .card-name-podium-one{
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl);
 =======
     @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
+=======
+    @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 }
 
 .card-btn-view{
@@ -20,10 +29,26 @@
 .card-crown{
     @include mixins.card-corona();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 }
 
 .card-crown-num{
     @include mixins.card-corona-numero(variables.$ff-card, variables.$clr-white);
+<<<<<<< HEAD
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
+=======
+}
+
+//Under Podium Card
+
+.card-u-name-podium{
+    @include mixins.card-nombre-two(variables.$clr-white, variables.$fs-l, variables.$ff-card);
+}
+
+.card-u-btn-view{
+    @include mixins.card-boton-ver-u(variables.$clr-white, variables.$fs-l);
+>>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 }
