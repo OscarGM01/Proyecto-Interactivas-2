@@ -43,6 +43,7 @@ app.component('recipe-card', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `<div class="card mb-3" style="col-md-3">
     <div class="row g-0">
 <<<<<<< HEAD
@@ -172,6 +173,10 @@ app.component('recipe-card', {
     `
     
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+    `
+    
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
     <!--<div class="card p-3 col-md-3" > 
     
     <div class="card-body">

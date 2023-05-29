@@ -13,6 +13,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   height: 300px;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30,6 +31,9 @@ body {
 =======
   height: 450px;
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+  height: 450px;
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 }
 
 /* <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -58,6 +62,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nav-txt-pstn {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,6 +86,11 @@ body {
   font-family: "DM Sans", "inter";
   color: hsl(300deg, 3%, 93%);
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+.nav-links {
+  font-family: "DM Sans", "inter";
+  color: hsl(300deg, 3%, 93%);
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,11 +212,14 @@ body {
   color: hsl(300deg, 3%, 93%);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,6 +234,7 @@ body {
 
 .nav-clr-bg {
   background-color: hsl(150deg, 16%, 41%);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,12 +256,16 @@ body {
 =======
   height: 100px;
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+  height: 100px;
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +280,8 @@ body {
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .set-pst-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -277,6 +297,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .texto-sobrepuesto {
   position: absolute;
 <<<<<<< HEAD
@@ -288,6 +309,8 @@ body {
           align-items: center;
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .set-text-justify {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,11 +328,15 @@ body {
 .texto-sobrepuesto {
   position: absolute;
   width: 200px;
+<<<<<<< HEAD
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   top: 30%;
   left: 10%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -318,6 +345,9 @@ body {
 =======
   font-family: "DM Serif Display", "italic";
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+  font-family: "DM Serif Display", "italic";
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   color: hsl(300deg, 3%, 93%);
   font-size: 3rem;
   background-color: rgba(0, 0, 0, 0.5);
@@ -326,6 +356,7 @@ body {
 
 .texto-sobrepuesto-r {
   position: absolute;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   width: 260px;
@@ -337,6 +368,8 @@ body {
 =======
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   width: 240px;
   bottom: 1%;
   right: -8%;
@@ -345,14 +378,18 @@ body {
   color: hsl(300deg, 3%, 93%);
   font-family: "DM Serif Display", "italic";
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   font-size: 3rem;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,12 +403,15 @@ body {
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .set-ff {
   font-family: "DM Sans", "inter";
 }
 
 .index-pstn {
   background-color: beige;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -419,6 +459,8 @@ body {
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   height: 40px;
   width: 0;
   margin-top: 20px;
@@ -427,6 +469,7 @@ body {
   color: black;
   border-radius: 50px;
   font-size: 20px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464,10 +507,13 @@ body {
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,6 +552,8 @@ body {
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .container-animation {
   margin: 15px;
   margin-left: 100px;
@@ -514,6 +562,7 @@ body {
   padding: 10px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,6 +775,8 @@ body {
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .footer-style {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -736,12 +787,16 @@ body {
           flex-direction: column;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   background-color: hsl(0deg, 3%, 34%);
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
   background-color: hsl(0deg, 3%, 34%);
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+  background-color: hsl(0deg, 3%, 34%);
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   margin-top: 10%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -832,10 +887,13 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .card-u-name-podium {
   position: absolute;
   font-family: "DM Serif Display", "italic";
@@ -861,8 +919,11 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .card-profile {
   margin-top: 2%;
   width: 100%;
@@ -914,10 +975,13 @@ body {
 .my-recipes-links {
   font-family: "DM Sans", "inter";
   color: hsl(300deg, 3%, 93%);
+<<<<<<< HEAD
   list-style: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
   text-decoration: none;
   font-size: 1.25rem;
   -webkit-transition: all 0.4s ease;
@@ -925,7 +989,96 @@ body {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+.set-div-regist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div-index-ssn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 7%;
+}
+
+.div-btn-ssn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15%;
+}
+
+.style-start {
+  background-color: hsl(76deg, 51%, 68%);
+  height: 600px;
+  width: 400px;
+  margin-top: 10%;
+  border-radius: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.txt-stl-rp {
+  margin-left: 20%;
+  padding-right: 15%;
+  text-align: right;
+}
+
+.regist-text {
+  font-size: 1.25rem;
+}
+
+.img-strt-ssn-logo {
+  height: 80px;
+  margin-top: 5%;
+}
+
+.img-strt-ssn {
+  height: 80px;
+  opacity: 90%;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.img-lock {
+  height: 80px;
+  opacity: 90%;
+  margin-top: 5%;
+}
+
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

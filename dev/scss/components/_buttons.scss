@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nav-links{
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,10 +58,15 @@
 //Botones Header
 .nav-links{
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+//Botones Header
+.nav-links{
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
     @include mixins.button-style(variables.$ff, variables.$clr-white, variables.$fs-s);
 }
 
 .button-search{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,12 +127,15 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
     @include mixins.btn-stl(variables.$clr-Liht-green);
 }
 
 //Animacion Botones
 .buttons-animation:hover {
     @include mixins.input-anmtn-btm(variables.$clr-orange-100);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +152,8 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 }
 
 .index-animation:hover input{
@@ -151,6 +162,7 @@
 
 .search-image{
     @include mixins.set-search-img-stl();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,10 +200,13 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 }
 
 
 //Botones Best Recipes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,11 +223,14 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .btn-best-recipes{
     @include mixins.button-b-r(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 
 .btn-best-recipes-clr{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,12 +285,16 @@
 =======
     @include mixins.button-b-r-clr(variables.$clr-white, variables.$fs-l);
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+    @include mixins.button-b-r-clr(variables.$clr-white, variables.$fs-l);
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 }
 
 
 //Botones en Modal
 .btn-best-recipes-internos{
     @include mixins.button-b-r-inter(variables.$ff, variables.$clr-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,10 +331,13 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 }
 
 .btn-b-r-inter{
     @include mixins.button-b-r-orange(variables.$ff, variables.$clr-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,10 +348,13 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 }
 
 
 //Index Pagina de Registro
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,10 +371,13 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .register-index{
     @include mixins.set-index-register();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,3 +427,9 @@
     @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+//Boton Adaptativo
+.btn-adapt{
+    @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
+}
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)

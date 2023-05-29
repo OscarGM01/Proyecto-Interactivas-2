@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
@@ -24,10 +25,13 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .set-pst-text{
     @include mixins.set-txt-center();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .texto-sobrepuesto{
 <<<<<<< HEAD
@@ -46,12 +50,17 @@
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
 =======
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .set-text-justify{
     @include mixins.set-txt-center-J();
 }
 
 .texto-sobrepuesto{
+<<<<<<< HEAD
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
     @include mixins.text-overlay-L(variables.$ff-card, variables.$clr-white, variables.$fs-xl);
 }
 
@@ -59,9 +68,12 @@
     @include mixins.text-overlay-R(variables.$ff-card, variables.$clr-white, variables.$fs-xl);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .set-ff{
     @include mixins.set-font-family(variables.$ff);
 }
@@ -70,6 +82,7 @@
     @include mixins.set-index-position();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,11 +122,14 @@
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 .container-animation{
     @include mixins.cntr-anmtn();
 }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,3 +172,6 @@
 =======
 
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
+=======
+
+>>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
