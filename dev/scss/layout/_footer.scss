@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include mixins.footer-estilos();
 =======
     @include mixins.footer-estilos(variables.$clr-grey);
@@ -15,12 +16,24 @@
 =======
     @include mixins.footer-estilos(variables.$clr-grey);
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
+=======
+    @include mixins.footer-estilos(variables.$clr-grey);
+>>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 }
 
 .footer-logo{
     @include mixins.footer-logo-style();
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 600px){
+    .footer-logo{
+        height: 50px;
+    }
+}
+
+>>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 .footer-nav-icons{
     @include mixins.nav-icons-foot();
 }
@@ -29,6 +42,26 @@
     @include mixins.icons-foot();
 }
 
+<<<<<<< HEAD
 .footer-description{
     @include mixins.desc-foot(variables.$fs-xs);
+=======
+@media (max-width: 600px){
+    .footer-icons{
+        height: 40px;
+    }
+}
+
+.footer-description{
+    @include mixins.desc-foot(variables.$fs-xs);
+}
+
+@media (max-width: 600px){
+    .footer-description{
+        font-size: 1rem;
+        padding: 10%;
+        display: flex;
+        justify-self: center;
+    }
+>>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 }

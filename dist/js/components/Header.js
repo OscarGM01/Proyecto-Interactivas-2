@@ -11,9 +11,16 @@ app.component('project-header', {
     `
     <header class="position-relative nav-txt-pstn">
         <div class="nav-clr-bg">
+<<<<<<< HEAD
             <img src="./imgs/GL.png" alt="logo">
             <h1 class="nav-txt-pstn set-ff">{{namePage}}</h1>
 
+=======
+            <div class="set-pst-text">
+                <img class="nav-logo" src="./imgs/GL.png" alt="logo">
+                <h1 class="nav-txt-pstn set-ff">{{namePage}}</h1>
+            </div>
+>>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
             <div class="set-pst-text">
                 <ul class="nav-txt-pstn">
                     <a href="" class="nav-links buttons-animation" >Categorias </a> 
