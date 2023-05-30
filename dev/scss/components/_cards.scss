@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //Podium Card
 
@@ -21,11 +22,16 @@
 //Podium Card
 
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+//Podium Card
+
+>>>>>>> 4a79868 (Responsive completado al 101)
 .card-podium{
     @include mixins.card-podio-one();
 }
 
 .card-name-podium-one{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +53,9 @@
 =======
     @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+    @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 .card-btn-view{
@@ -60,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
@@ -69,10 +79,13 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 .card-crown-num{
     @include mixins.card-corona-numero(variables.$ff-card, variables.$clr-white);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +98,8 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 //Under Podium Card
@@ -98,12 +113,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 =======
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 //Profile Card
@@ -111,11 +129,30 @@
 .card-profile{
     @include mixins.prof-card(variables.$clr-orange-100);
 }
+<<<<<<< HEAD
+=======
+@media (max-width: 600px){
+    .card-profile{
+        height: auto;
+    }
+}
+
+>>>>>>> 4a79868 (Responsive completado al 101)
 
 .profile-picture{
     @include mixins.photo-perfil();
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 600px){
+    .profile-picture{
+        height: 300px;
+        width: 100%;
+    }
+}
+
+>>>>>>> 4a79868 (Responsive completado al 101)
 .txt-profile{
     @include mixins.profile-text(variables.$clr-green)
 }
@@ -132,6 +169,7 @@
     @include mixins.my-recipes(variables.$clr-green);
 }
 
+<<<<<<< HEAD
 .my-recipes-links{
     @include mixins.button-style-my-r(variables.$ff, variables.$clr-white, variables.$fs-s);
 <<<<<<< HEAD
@@ -144,3 +182,14 @@
 =======
 }
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+@media (max-width: 600px){
+    .nav-my-recipes{
+        transform: translate(120%, -140%);
+    }
+}
+
+.my-recipes-links{
+    @include mixins.button-style-my-r(variables.$ff, variables.$clr-white, variables.$fs-s);
+}
+>>>>>>> 4a79868 (Responsive completado al 101)

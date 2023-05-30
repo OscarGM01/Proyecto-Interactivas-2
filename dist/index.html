@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,6 +39,8 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
@@ -55,12 +59,15 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https:use.fontawesome.com/releases/v5.6.3/css/all.css">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -574,6 +581,81 @@
             <section class="row">
 
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+</head>
+
+<body>
+    <section id="app">
+        <!--Header/Nav Bar-->
+        <project-header></project-header>
+        <!--Header/Nav Bar-->
+        <!--Carrusel-->
+        <project-carrusel></project-carrusel>
+        <!--Carrusel-->
+        <section class="container">
+            <div>
+                <button class="btn-adapt btn-best-recipes-clr">Más Votadas</button>
+            </div>
+
+
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{ recipes[selectedIndex].name }}</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-fluid" v-bind:src="recipes[selectedIndex].image"
+                                alt="{{ recipes[selectedIndex].name }}">
+                            <p class="text-center fs-6">{{ recipes[selectedIndex].ingredients }}</p>
+                            <p class="fst-italic fw-light fs-5">{{ recipes[selectedIndex].instructions }}</p>
+                            <p class="fst-italic fw-light fs-5">{{ recipes[selectedIndex].likes }} Likes</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div v-if="recipes.length>1"
+                                style="display: flex; justify-content: center; align-items: center;">
+                                <button type="button" class="btn-best-recipes btn-best-recipes-clr"
+                                    v-on:click="onClickPrev()">Prev</button>
+                                <button type="button" class="btn-best-recipes btn-best-recipes-clr"
+                                    v-on:click="onClickNext()">Next</button>
+                                
+                                <button type="button" class="btn-best-recipes btn-best-recipes-clr" v-on:click="onClickLike(index)"> Like</button>
+
+                                <button type="button" class="btn-best-recipes btn-best-recipes-clr" v-on:click="onClickLike(index)"> Unlike</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <!-- filters 
+            <section class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
+                                <li v-for="(category, index) in categories" class="nav-item">
+                                    <button class="btn-best-recipes-internos btn-best-recipes-clr" v-on:click="onClickCategory(category.name)"
+                                        aria-current="page">
+                                        {{category.name}} </button>
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            filters -->
+            <!--Best recipes-->
+            <section class="row">
+
+>>>>>>> 4a79868 (Responsive completado al 101)
                 <div v-if="hasRecipes " v-for="(recipe, index) in recipes" class="col-md-4">
                     <div class="card" style="margin-bottom: 2%;">
                         <img v-bind:src="recipe.image" class="card-podium" alt="featured recipe">
@@ -661,6 +743,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
@@ -668,12 +751,15 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
     </section>
 =======
             <button class="btn-best-recipes btn-best-recipes-clr">Más Votadas</button>
         </div>
 >>>>>>> f4d05fb (Pagina Principal Finalizada, queda arreglar las cards y listo)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1068,6 +1154,8 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
     <!--VueJS-->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
@@ -1076,6 +1164,7 @@
 
     <!-- <script src="./js/components/ClickCounter.js"></script>-->
     <script src="./js/components/RecipeCards.js"></script>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1106,6 +1195,11 @@
     <script src="./js/components/Footer.js"></script>
     <script src="./js/components/Carrusel.js"></script>
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+    <script src="./js/components/Header.js"></script>
+    <script src="./js/components/Footer.js"></script>
+    <script src="./js/components/Carrusel.js"></script>
+>>>>>>> 4a79868 (Responsive completado al 101)
 
     <script>
         const mountedApp = app.mount("#app");

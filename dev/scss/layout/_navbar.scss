@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
@@ -47,6 +48,8 @@
 =======
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 @media (max-width: 600px){
     .nav-clr-bg{
         height: auto;
@@ -56,11 +59,15 @@
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 .set-pst-text{
     @include mixins.set-txt-center();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,17 +91,23 @@
 =======
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 @media (max-width: 600px){
     .set-pst-text{
         justify-content: none;
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 .set-text-justify{
     @include mixins.set-txt-center-J();
 }
 
+<<<<<<< HEAD
 .texto-sobrepuesto{
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,18 +132,54 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+@media (max-width: 600px){
+    .set-text-justify{
+        flex-direction: column;
+    }
+}
+
+
+
+.texto-sobrepuesto{
+    @include mixins.text-overlay-L(variables.$ff-card, variables.$clr-white, variables.$fs-xl);
+}
+
+@media (max-width: 600px){
+    .texto-sobrepuesto{
+        left: 27%;
+    }
+}
+
+
+.texto-sobrepuesto-r{
+    @include mixins.text-overlay-R(variables.$ff-card, variables.$clr-white, variables.$fs-xl);
+}
+
+@media (max-width: 600px){
+    .texto-sobrepuesto-r{
+        right: -10%;
+    }
+}
+
+>>>>>>> 4a79868 (Responsive completado al 101)
 .set-ff{
     @include mixins.set-font-family(variables.$ff);
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+
+>>>>>>> 4a79868 (Responsive completado al 101)
 .index-pstn{
     @include mixins.set-index-position();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +224,8 @@
 =======
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 @media (max-width: 600px){
     .index-pstn{
         transform: translate(65%, 80%);
@@ -182,12 +233,16 @@
 }
 
 
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 .container-animation{
     @include mixins.cntr-anmtn();
 }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,3 +293,6 @@
 =======
 
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+
+>>>>>>> 4a79868 (Responsive completado al 101)

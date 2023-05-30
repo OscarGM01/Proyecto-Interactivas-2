@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nav-links{
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +132,8 @@
 =======
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 //Botones Header
 .nav-links{
     @include mixins.button-style(variables.$ff, variables.$clr-white, variables.$fs-s);
@@ -144,13 +147,17 @@
 }
 
 .button-search{
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
     @include mixins.btn-stl(variables.$clr-Liht-green);
 }
 
 //Animacion Botones
 .buttons-animation:hover {
     @include mixins.input-anmtn-btm(variables.$clr-orange-100);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +180,8 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 .index-animation:hover input{
@@ -181,6 +190,7 @@
 
 .search-image{
     @include mixins.set-search-img-stl();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,10 +234,13 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 
 //Botones Best Recipes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,11 +263,14 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 .btn-best-recipes{
     @include mixins.button-b-r(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
 
 .btn-best-recipes-clr{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -317,12 +333,16 @@
 =======
     @include mixins.button-b-r-clr(variables.$clr-white, variables.$fs-l);
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+    @include mixins.button-b-r-clr(variables.$clr-white, variables.$fs-l);
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 
 //Botones en Modal
 .btn-best-recipes-internos{
     @include mixins.button-b-r-inter(variables.$ff, variables.$clr-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,10 +385,13 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 .btn-b-r-inter{
     @include mixins.button-b-r-orange(variables.$ff, variables.$clr-green, variables.$fs-s);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,10 +408,13 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 
 //Index Pagina de Registro
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,10 +437,13 @@
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 .register-index{
     @include mixins.set-index-register();
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -433,10 +462,13 @@
 =======
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 //Boton Adaptativo
 .btn-adapt{
     @include mixins.button-adaptative(variables.$ff, variables.$clr-green, variables.$fs-s);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
 =======
@@ -476,6 +508,8 @@
 }
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 
 
 @media (max-width: 600px){
@@ -483,5 +517,9 @@
         font-size: 1.50rem;
         margin-top: 8%;
     }
+<<<<<<< HEAD
 }
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+}
+>>>>>>> 4a79868 (Responsive completado al 101)

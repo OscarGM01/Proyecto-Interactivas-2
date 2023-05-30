@@ -45,6 +45,7 @@ app.component('recipe-card', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `<div class="card mb-3" style="col-md-3">
     <div class="row g-0">
 <<<<<<< HEAD
@@ -182,6 +183,10 @@ app.component('recipe-card', {
     `
     
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+    `
+    
+>>>>>>> 4a79868 (Responsive completado al 101)
     <!--<div class="card p-3 col-md-3" > 
     
     <div class="card-body">

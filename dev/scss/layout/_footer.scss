@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include mixins.footer-estilos();
 =======
     @include mixins.footer-estilos(variables.$clr-grey);
@@ -19,6 +20,9 @@
 =======
     @include mixins.footer-estilos(variables.$clr-grey);
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+    @include mixins.footer-estilos(variables.$clr-grey);
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
 
 .footer-logo{
@@ -26,14 +30,20 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 @media (max-width: 600px){
     .footer-logo{
         height: 50px;
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 .footer-nav-icons{
     @include mixins.nav-icons-foot();
 }
@@ -43,9 +53,12 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer-description{
     @include mixins.desc-foot(variables.$fs-xs);
 =======
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 @media (max-width: 600px){
     .footer-icons{
         height: 40px;
@@ -63,5 +76,8 @@
         display: flex;
         justify-self: center;
     }
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
+=======
+>>>>>>> 4a79868 (Responsive completado al 101)
 }
