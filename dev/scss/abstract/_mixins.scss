@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 15px;
     color: $color;
 =======
@@ -55,10 +56,14 @@
 =======
     color: $color;
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    color: $color;
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     display: flex; 
     align-items: center; 
     flex-direction: row; 
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
@@ -66,10 +71,13 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }
 
 @mixin set-background($color){
     background-color: $color;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,10 +115,14 @@
 =======
     height: 100px;
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    height: 100px;
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     width: 100%;
     display: flex;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +148,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin set-logo-nav(){
     height: 100px;
     width: 100px;
@@ -143,11 +157,14 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin set-txt-center(){
     display: flex; 
     align-items: center; 
@@ -155,6 +172,7 @@
     margin-top: 13px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +195,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin set-txt-center-J(){
     display: flex; 
     justify-content: center;
@@ -184,6 +204,7 @@
     margin-top: 13px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +218,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin text-overlay-L($ff, $color, $fs){
     position: absolute;
     width: 200px;
@@ -204,6 +227,7 @@
     left: 10%;
     transform: translate(-50%, -50%);
     font-family: $ff;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +244,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     color: $color;
     font-size: $fs;
     background-color: rgba(0,0,0,0.5);
@@ -227,6 +253,7 @@
     
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +278,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin text-overlay-R($ff, $color, $fs){
     position: absolute;
     width: 240px;
@@ -259,6 +288,7 @@
     transform: translate(-50%, -50%);
     color: $color;
     font-family: $ff;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,11 +305,14 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     font-size: $fs;
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +338,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 //carrusel intento
 @mixin carousel(){
     position: relative;
@@ -313,6 +348,7 @@
 
 @mixin set-carousel-images(){
     width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,11 +401,17 @@
 }
 
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    height: 450px;
+}
+
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin set-font-family($ff){
     font-family: $ff;
     
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +487,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 //Botones links
 @mixin button-style($ff, $color, $fs){
     font-family: $ff;
@@ -453,6 +497,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,6 +527,9 @@
 =======
     margin-left: 20%;
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    margin-left: 20%;
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     width: 170px;
     text-decoration: none;
     font-size: $fs;
@@ -505,6 +553,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -546,6 +595,9 @@
 =======
 //Estilo para los botones
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+//Estilo para los botones
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin button-b-r($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -568,6 +620,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-left: 1%;
 >>>>>>> bc6fb1a (Pagina principal y top 10 finalizada con place holder)
@@ -613,10 +666,14 @@
 =======
     margin-left: 1%;
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    margin-left: 1%;
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     height: 40px; 
     width: 120px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -665,12 +722,15 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin button-b-r-clr($color, $fs){
     color: $color;
     font-size: $fs;
     margin-bottom: 2%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,6 +756,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin button-b-r-inter($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
@@ -708,6 +770,7 @@
     width: auto;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -751,10 +814,13 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin button-b-r-orange($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
     font-size: $fs;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -788,10 +854,14 @@
 =======
     border-radius: 35px;
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    border-radius: 35px;
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     border: none;
     margin-top: 2%;
     margin-left: 1%;
     height: 40px; 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -859,6 +929,11 @@
 }
 
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    width: 80px;
+}
+
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 //animation buttons bar
 @mixin input-anmtn-btm($color){
     color: $color;
@@ -886,6 +961,7 @@
     width: auto;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -951,11 +1027,15 @@
 =======
 @mixin btn-stl($color){
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+@mixin btn-stl($color){
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     position: absolute;
     right: 10%;
     top: 50%;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1021,6 +1101,9 @@
 =======
     background-color: $color;
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    background-color: $color;
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -1037,6 +1120,7 @@
 @mixin input-anmtn(){
     width: 200px;
     height: 40px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1117,10 +1201,16 @@
 
 //Diseño del background
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+}
+
+//Diseño del background
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin imagen-body(){
     background-size: cover;
     background-position: center;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1189,6 +1279,11 @@
 
 //index de la pagina de registro
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+}
+
+//index de la pagina de registro
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin set-index-register(){
     background-color: beige;
     height: 40px;
@@ -1210,6 +1305,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
@@ -1217,10 +1313,13 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin txt-reg($fs){
     font-size: $fs;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1231,6 +1330,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin inicio-sesion-style($color){
     background-color: $color;
     height: 600px; width: 400px; 
@@ -1242,6 +1343,7 @@
     
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1278,6 +1380,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @media (max-width: 600px){
 
 }
@@ -1286,11 +1390,14 @@
 //Estilos Pagina Recuperar Contraseña
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin images-L-sesion-style(){
     height: 80px; 
     margin-top: 5%
@@ -1314,6 +1421,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bd23b2a (Pagina perdil Finalizada)
@@ -1335,12 +1443,15 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin images-lock-style(){
     height: 80px; 
     opacity: 90%; 
     margin-top: 5%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1372,6 +1483,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @mixin index-position-ssn(){
     display: flex; 
     align-items: center; 
@@ -1381,6 +1494,7 @@
 
 @mixin buttons-div-ssn(){
     display: flex; 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1425,6 +1539,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     align-items: center;
     flex-direction: column; 
     margin-top: 15%;
@@ -1437,6 +1553,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6b5e0d (Utilizacion de componentes en todas las paginas)
 =======
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
@@ -1444,12 +1561,15 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }
 
 //Boton con tamaño adaptativo
 @mixin button-adaptative($ff, $color, $fs){
     font-family: $ff;
     background-color: $color;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1490,12 +1610,15 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     border-radius: 10px;
     border: none;
     margin-top: 2%;
     height: auto; 
     width: auto;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1529,11 +1652,16 @@
 
 //Estilos cards podium
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+
+//Estilos cards podium
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 
 @mixin card-podio-one(){
     height: 300px;
     width: 100%;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1578,6 +1706,11 @@
     position: absolute;
     font-family: $ff;
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+@mixin card-nombre-one($color, $fs, $ff){
+    position: absolute;
+    font-family: $ff;
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     width: 220px;
     bottom: 10%;
     left: 32%;
@@ -1614,6 +1747,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ccab86 (Arreglo del diseño de los Cards1)
 =======
 =======
@@ -1628,6 +1762,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 
 @mixin card-corona-numero($ff, $color,){
     position: absolute;
@@ -1640,6 +1776,7 @@
     //font-size: $fs;
 
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1662,6 +1799,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 //under podium
 
 @mixin card-nombre-two($color, $fs, $ff){
@@ -1670,7 +1809,11 @@
     width: 150px;
     bottom: 10%;
     left: 32%;
+<<<<<<< HEAD
     transform: translate(-50%, 40%);
+=======
+    transform: translate(-50%, 20%);
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     color: $color;
     font-size: $fs;
     background-color: rgba(0,0,0,0.5);
@@ -1697,6 +1840,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
@@ -1708,6 +1852,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     margin-top: 10%;
     justify-content: center; 
     align-items: center;
@@ -1741,6 +1887,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 >>>>>>> 64333df (Arreglo de los cards y diseño del nav bar1)
 =======
@@ -1755,6 +1902,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }
 
 //profile Cards
@@ -1801,6 +1950,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 >>>>>>> e7eb9f6 (Arreglo del css de la pagina del pefirl y uso de componentes2)
 =======
@@ -1815,3 +1965,6 @@
 =======
 }
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+}
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)

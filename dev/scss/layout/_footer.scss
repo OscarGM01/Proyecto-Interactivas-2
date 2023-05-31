@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include mixins.footer-estilos();
 =======
     @include mixins.footer-estilos(variables.$clr-grey);
@@ -27,6 +28,9 @@
 =======
     @include mixins.footer-estilos(variables.$clr-grey);
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    @include mixins.footer-estilos(variables.$clr-grey);
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }
 
 .footer-logo{
@@ -36,11 +40,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @media (max-width: 600px){
     .footer-logo{
         height: 50px;
@@ -49,11 +56,14 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 .footer-nav-icons{
     @include mixins.nav-icons-foot();
 }
@@ -65,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer-description{
     @include mixins.desc-foot(variables.$fs-xs);
 =======
@@ -72,6 +83,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @media (max-width: 600px){
     .footer-icons{
         height: 40px;
@@ -91,9 +104,12 @@
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }

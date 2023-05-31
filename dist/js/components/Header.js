@@ -14,6 +14,7 @@ app.component('project-header', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <img src="./imgs/GL.png" alt="logo">
             <h1 class="nav-txt-pstn set-ff">{{namePage}}</h1>
 
@@ -22,10 +23,13 @@ app.component('project-header', {
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
             <div class="set-pst-text">
                 <img class="nav-logo" src="./imgs/GL.png" alt="logo">
                 <h1 class="nav-txt-pstn set-ff">{{namePage}}</h1>
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
@@ -33,6 +37,8 @@ app.component('project-header', {
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
             <div class="set-pst-text">
                 <ul class="nav-txt-pstn">
                     <a href="" class="nav-links buttons-animation" >Categorias </a> 

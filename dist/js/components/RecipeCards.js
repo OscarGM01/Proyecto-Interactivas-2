@@ -47,6 +47,7 @@ app.component('recipe-card', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `<div class="card mb-3" style="col-md-3">
     <div class="row g-0">
 <<<<<<< HEAD
@@ -192,6 +193,10 @@ app.component('recipe-card', {
     `
     
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    `
+    
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
     <!--<div class="card p-3 col-md-3" > 
     
     <div class="card-body">

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //Podium Card
 
@@ -31,11 +32,16 @@
 //Podium Card
 
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+//Podium Card
+
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 .card-podium{
     @include mixins.card-podio-one();
 }
 
 .card-name-podium-one{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,6 +71,9 @@
 =======
     @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+    @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }
 
 .card-btn-view{
@@ -73,6 +82,7 @@
 
 .card-crown{
     @include mixins.card-corona();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,10 +103,13 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }
 
 .card-crown-num{
     @include mixins.card-corona-numero(variables.$ff-card, variables.$clr-white);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +128,8 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }
 
 //Under Podium Card
@@ -123,6 +138,7 @@
     @include mixins.card-nombre-two(variables.$clr-white, variables.$fs-l, variables.$ff-card);
 }
 
+<<<<<<< HEAD
 .card-u-btn-view{
     @include mixins.card-boton-ver-u(variables.$clr-white, variables.$fs-l);
 <<<<<<< HEAD
@@ -140,6 +156,16 @@
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+@media (max-width: 600px){
+    .card-u-name-podium{
+        transform: translate(-60%, 20%);
+    }
+}
+
+.card-u-btn-view{
+    @include mixins.card-boton-ver-u(variables.$clr-white, variables.$fs-l);
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 }
 
 //Profile Card
@@ -149,9 +175,12 @@
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @media (max-width: 600px){
     .card-profile{
         height: auto;
@@ -159,9 +188,12 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 
 .profile-picture{
     @include mixins.photo-perfil();
@@ -169,9 +201,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @media (max-width: 600px){
     .profile-picture{
         height: 300px;
@@ -180,9 +215,12 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 .txt-profile{
     @include mixins.profile-text(variables.$clr-green)
 }
@@ -201,6 +239,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .my-recipes-links{
     @include mixins.button-style-my-r(variables.$ff, variables.$clr-white, variables.$fs-s);
 <<<<<<< HEAD
@@ -216,6 +255,8 @@
 =======
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
 @media (max-width: 600px){
     .nav-my-recipes{
         transform: translate(120%, -140%);
@@ -226,6 +267,9 @@
     @include mixins.button-style-my-r(variables.$ff, variables.$clr-white, variables.$fs-s);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4a79868 (Responsive completado al 101)
 =======
 >>>>>>> 662e388 (Coneccion con el Api1)
+=======
+>>>>>>> 7ff8081 (Arreglo de diseño y de responsive tras conectar el api1)
