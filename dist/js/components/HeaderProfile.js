@@ -13,20 +13,26 @@ app.component('profile-header', {
         <div class="nav-clr-bg">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <img src="./imgs/GL.png" alt="logo">
             <h1 class="nav-txt-pstn set-ff">{{namePage}}</h1>
 =======
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
             <div class="set-pst-text">
             <img class="nav-logo" src="./imgs/GL.png" alt="logo">
             <h1 class="nav-txt-pstn set-ff">{{namePage}}</h1>
             
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 
             <div class="set-pst-text">
                 <ul class="nav-txt-pstn">
@@ -39,6 +45,7 @@ app.component('profile-header', {
                     </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                      
 =======
                 
@@ -46,6 +53,9 @@ app.component('profile-header', {
 =======
                 
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+                
+>>>>>>> 662e388 (Coneccion con el Api1)
                 </ul>
                 
             </div>

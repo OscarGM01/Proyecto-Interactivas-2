@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //Podium Card
 
@@ -26,11 +27,16 @@
 //Podium Card
 
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+//Podium Card
+
+>>>>>>> 662e388 (Coneccion con el Api1)
 .card-podium{
     @include mixins.card-podio-one();
 }
 
 .card-name-podium-one{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +62,9 @@
 =======
     @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+    @include mixins.card-nombre-one(variables.$clr-white, variables.$fs-xl, variables.$ff-card);
+>>>>>>> 662e388 (Coneccion con el Api1)
 }
 
 .card-btn-view{
@@ -64,6 +73,7 @@
 
 .card-crown{
     @include mixins.card-corona();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,10 +91,13 @@
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 }
 
 .card-crown-num{
     @include mixins.card-corona-numero(variables.$ff-card, variables.$clr-white);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +113,8 @@
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 }
 
 //Under Podium Card
@@ -114,6 +129,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a54e6b (Arreglo de componentes y recetas1)
 =======
 =======
@@ -122,6 +138,8 @@
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 }
 
 //Profile Card
@@ -130,21 +148,30 @@
     @include mixins.prof-card(variables.$clr-orange-100);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 @media (max-width: 600px){
     .card-profile{
         height: auto;
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 
 .profile-picture{
     @include mixins.photo-perfil();
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 @media (max-width: 600px){
     .profile-picture{
         height: 300px;
@@ -152,7 +179,10 @@
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 .txt-profile{
     @include mixins.profile-text(variables.$clr-green)
 }
@@ -170,6 +200,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .my-recipes-links{
     @include mixins.button-style-my-r(variables.$ff, variables.$clr-white, variables.$fs-s);
 <<<<<<< HEAD
@@ -183,6 +214,8 @@
 }
 >>>>>>> 1126408 (Arreglo de los componentes faltantes y responsible completado al 70%)
 =======
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
 @media (max-width: 600px){
     .nav-my-recipes{
         transform: translate(120%, -140%);
@@ -192,4 +225,7 @@
 .my-recipes-links{
     @include mixins.button-style-my-r(variables.$ff, variables.$clr-white, variables.$fs-s);
 }
+<<<<<<< HEAD
 >>>>>>> 4a79868 (Responsive completado al 101)
+=======
+>>>>>>> 662e388 (Coneccion con el Api1)
